@@ -1,0 +1,35 @@
+{
+  "name": "pmpr/optimization",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Wordpress Optimization Module, Subset of PMPR Wordpress Modules.",
+  "keywords": [
+    "atf",
+    "lqip",
+    "minfy",
+    "moduel",
+    "dominator",
+    "lazy-load",
+    "wordpress",
+    "performance",
+    "optimization",
+    "critical-css"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "narmafzam/boilerplate": "1.0.1",
+    "symfony/css-selector": "v5.0.2",
+    "matthiasmullie/minify": "1.3.63",
+    "ksubileau/color-thief-php": "1.4.1",
+    "websharks/html-compressor": "170420.24924"
+  },
+  "autoload": {
+    "psr-4": {
+      "Optimization\\": "src/Optimization"
+    },
+    "files": [
+      "optimization.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
