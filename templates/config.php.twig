@@ -1,0 +1,6 @@
+<?php
+
+defined( 'ABSPATH' ) || exit;
+{% for config, value in configs %}
+${{ config|raw }} = {{ value|raw }};
+{% endfor %}

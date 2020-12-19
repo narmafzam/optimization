@@ -1,0 +1,79 @@
+.page-preloader-cover {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    opacity: 0;
+    height: 0;
+    display: block;
+    position: fixed;
+    background: {{ background_color }};
+}
+
+.page-preloader-cover.show {
+    height: 100%;
+    opacity: 1;
+}
+
+.page-preloader-cover .page-preloader-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 10%;
+    right: 0;
+    text-align: center;
+    color: {{ color }};
+    font-size: 1.5rem;
+}
+
+.page-preloader {
+    position: relative;
+    top: 50%;
+    right: 50%;
+    width: 18px;
+    height: 18px;
+    margin-top: -9px;
+    margin-left: -9px;
+}
+
+.page-preloader .thing {
+    height: 15px;
+    width: 6px;
+    border-radius: 6px;
+    background: {{ color }};
+    position: absolute;
+    -webkit-animation: custom_spinner 1s infinite ease;
+    animation: custom_spinner 1s infinite ease;
+    -webkit-transform-origin: 50% -200%;
+    -ms-transform-origin: 50% -200%;
+    transform-origin: 50% -200%;
+}
+
+
+{% for number in 1..15 %}
+{% set degree = 24 * number %}
+.page-preloader .thing:nth-child({{ number }}) {
+    -webkit-transform: rotate({{ degree }}deg);
+    -ms-transform: rotate({{ degree }}deg);
+    transform: rotate({{ degree }}deg);
+    -webkit-animation-delay: {{ 0.25 * number }}s;
+    animation-delay: {{ 0.25 * number }}s;
+}
+
+{% endfor %}
+
+@-webkit-keyframes custom_spinner {
+    50% {
+        background: {{ spinner_color }};
+        -webkit-transform-origin: 50% -170%;
+        transform-origin: 50% -170%;
+    }
+}
+
+@keyframes custom_spinner {
+    50% {
+        background: {{ spinner_color }};
+        -webkit-transform-origin: 50% -170%;
+        transform-origin: 50% -170%;
+    }
+}

@@ -1,0 +1,2 @@
+<?php
+ namespace Optimization\Performance; class Performance extends Common { public function __construct() { $this->loadRequirement(); parent::__construct(); } public function loadRequirement() { goto iVaxp; WyvSy: MissingTag::getInstance(); goto UwODB; F104F: Protocol::getInstance(); goto JMnjN; LyhiB: flQNK: goto En0JN; WESDC: IEConditional::getInstance(); goto LyhiB; Nd5Is: Image::getInstance(); goto F104F; iVaxp: if (is_admin()) { goto flQNK; } goto Nd5Is; UwODB: ResourceHint::getInstance(); goto WESDC; JMnjN: Resource::getInstance(); goto WyvSy; En0JN: } }

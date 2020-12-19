@@ -1,0 +1,59 @@
+let lazy = [];
+
+registerListener('DOMContentLoaded', () => {
+    setLazy()
+});
+
+registerListener('DOMContentLoaded', () => {
+    lazyLoad()
+});
+
+registerListener('load scroll resize', lazyLoad);
+registerMutation('body', lazyLoad);
+
+function setLazy() {
+    if (isEmpty(lazy)) {
+
+        lazy = document.getElementsByClassName('lazyload');
+    }
+}
+
+function lazyLoad() {
+    if (lazy.length) {
+        for (let i = 0; i < lazy.length; i++) {
+            let $element = lazy[i], $target;
+            if (isInViewport($element)) {
+
+                if ($element.getAttribute('data-src')) {
+
+                    $target = 'data-src';
+                    $element.src = $element.getAttribute($target);
+                }
+                if ($element.getAttribute('data-style')) {
+
+                    $target = 'data-style';
+                    $element.style = $element.getAttribute($target);
+                }
+                if ($element.getAttribute('data-class')) {
+
+                    $target = 'data-class';
+                    addClass($element, $element.getAttribute($target))
+                }
+
+                if ($target) {
+
+                    $element.removeAttribute($target);
+                    addClass($element, 'lazyloaded');
+                }
+            }
+        }
+
+        cleanLazy();
+    }
+}
+
+function cleanLazy() {
+    lazy = Array.prototype.filter.call(lazy, function (element) {
+        return !hasClass(element, 'lazyloaded');
+    });
+}

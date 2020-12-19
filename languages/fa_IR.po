@@ -1,0 +1,4895 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PMPR Optimization\n"
+"POT-Creation-Date: 2020-12-19 14:32+0330\n"
+"PO-Revision-Date: 2020-12-19 14:37+0330\n"
+"Last-Translator: Farshadi <Farshad_asgharzade@hotmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: optimization.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Optimization/Ajax.php:51
+msgid "Something wrong in delete cache files."
+msgstr "اشکالی در فرایند حذف فایل‌ها کش رخ داده است."
+
+#: src/Optimization/Ajax.php:57
+msgid "Sorry Background process already running. please wait until finish."
+msgstr ""
+
+#: src/Optimization/Ajax.php:62
+msgid "Cache files successfully removed"
+msgstr "فایل‌های کش با موفقیت حذف شد"
+
+#: src/Optimization/Cache/Advanced.php:88
+#, php-format
+msgid "Optimization Advanced Cache file generated successfully in %s."
+msgstr "فایل Advance-cache در %s با موفقیت ایجاد شد."
+
+#: src/Optimization/Cache/Advanced.php:114
+#: src/Optimization/Cache/WPCache.php:168 src/Optimization/Cache/WPCache.php:223
+msgid "Cache"
+msgstr "کش"
+
+#: src/Optimization/Cache/Cache.php:64 src/Optimization/Critical/Critical.php:40
+#: src/Optimization/Optimization.php:71
+#, php-format
+msgid "%s constant not defined, please define that in wp-config.php."
+msgstr ""
+
+#: src/Optimization/Cache/Cache.php:90
+msgid "Scheduled Cache Purge"
+msgstr "زمان‌بندی پاکسازی کش"
+
+#: src/Optimization/Cache/Purge.php:246
+msgid "OPcache purge failed."
+msgstr "پاکسازی اوپ کش شکست خورد."
+
+#: src/Optimization/Cache/Purge.php:252
+msgid "OPcache successfully purged"
+msgstr "اوپ کش با موفقیت پاکسازی شد"
+
+#: src/Optimization/Cache/WPCache.php:207
+msgid "WP_CACHE value"
+msgstr ""
+
+#: src/Optimization/Cache/WPCache.php:227
+msgid "The WP_CACHE constant needs to be set to true for Cache to work properly"
+msgstr ""
+
+#: src/Optimization/Cache/WPCache.php:237
+msgid "WP_CACHE is set to true"
+msgstr ""
+
+#: src/Optimization/Cache/WPCache.php:246
+msgid "WP_CACHE is not set"
+msgstr ""
+
+#: src/Optimization/Cache/WPCache.php:255
+msgid "WP_CACHE is set to false"
+msgstr ""
+
+#: src/Optimization/Media/Dominator.php:181
+msgid "No Color Dominance Available."
+msgstr ""
+
+#: src/Optimization/Media/Dominator.php:182
+msgid "Check this item for generate dominate colors."
+msgstr "با علامت زدن این گزینه، رنگ‌های پر تکرار این تصویر استخراج می‌شوند."
+
+#: src/Optimization/Media/Dominator.php:209
+msgid "Dominant Color"
+msgstr "رنگ غالب"
+
+#: src/Optimization/Notice.php:26
+msgid "Performance"
+msgstr "بازدهی"
+
+#: src/Optimization/Notice.php:30
+#, php-format
+msgid "%s cannot configure itself due to missing writing permissions."
+msgstr ""
+
+#: src/Optimization/Notice.php:35
+#, php-format
+msgid "Affected file/directory: %s"
+msgstr "فایل/ پوشه تحت تاثیر: %s"
+
+#: src/Optimization/Optimization.php:162
+#, php-format
+msgid "Optimization config file %s generated in %s"
+msgstr "فایل پیکربندی %s در %s ایجاد شد"
+
+#: src/Optimization/Performance/MissingTag.php:109
+msgid "Optimization: "
+msgstr "بهینه‌سازی: "
+
+#: src/Optimization/Performance/MissingTag.php:111
+#, php-format
+msgid "Failed to detect the following requirement in your theme: closing %1$s."
+msgid_plural ""
+"Failed to detect the following requirements in your theme: closing %1$s."
+msgstr[0] ""
+
+#: src/Optimization/Process/Batch.php:151
+#, php-format
+msgid ""
+"Optimization process is currently running: %s success and %s failed of %s "
+"page types completed. (Refresh this page to view progress)"
+msgstr ""
+
+#: src/Optimization/Process/Batch.php:191
+msgid "Optimization process is currently running."
+msgstr "پردازش بهینه‌سازی در حال اجرا است."
+
+#: src/Optimization/Purge.php:360
+#, php-format
+msgid "Clear this %s"
+msgstr "حذف این %s"
+
+#: src/Optimization/Theme.php:72
+msgid "Loading..."
+msgstr "در حال بارگذاری"
+
+#~ msgid "Save Settings"
+#~ msgstr "ذخیره تنظیمات"
+
+#~ msgid "Columns"
+#~ msgstr "ستون‌ها"
+
+#~ msgid ""
+#~ "Number of Column per row to show the items (just for vertical layouts)."
+#~ msgstr ""
+#~ "تعداد ستون‌هایی که می‌خواهید در هر سطر نمایش داده شود (فقط برای لایه‌های "
+#~ "عمودی)."
+
+#~ msgid "Link rel attribute value"
+#~ msgstr "مقدار rel لینک"
+
+#~ msgid "Priority"
+#~ msgstr "اولویت"
+
+#~ msgid "First show static items."
+#~ msgstr "ابتدا داده‌های ایجادی را نمایش بده."
+
+#~ msgid "First show dynamic items."
+#~ msgstr "ابتدا داده‌های انتخابی را نمایش بده."
+
+#~ msgid "Priority to show the items."
+#~ msgstr "الویت نمایش آیتم‌ها."
+
+#~ msgid "Background Color"
+#~ msgstr "رنگ پس‌زمینه"
+
+#~ msgid "Background color of items section."
+#~ msgstr "رنگ پس‌زمینه بخش آیتم‌ها."
+
+#~ msgid "Layout"
+#~ msgstr "چینش صفحه"
+
+#~ msgid "Layout to show the items."
+#~ msgstr "نحوه نمایش آیتم‌ها."
+
+#~ msgid "%s Items"
+#~ msgstr "آیتم‌های %s"
+
+#~ msgid "Add %s Items"
+#~ msgstr "افزودن آیتم‌های %s"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "Static Data"
+#~ msgstr "داده ایجادی"
+
+#~ msgid "Dynamic Data"
+#~ msgstr "داده انتخابی"
+
+#~ msgid "Insert Shortcode"
+#~ msgstr "افزودن شورت‌کد"
+
+#~ msgid "Close Shortcode"
+#~ msgstr "بستن شورتکد"
+
+#~ msgid "min"
+#~ msgstr "دقیقه"
+
+#~ msgid "hr"
+#~ msgstr "ساعت"
+
+#~ msgid "No Limit"
+#~ msgstr "بدون محدودیت"
+
+#~ msgid "None"
+#~ msgstr "هیچکدام"
+
+#~ msgid "Add or Upload File"
+#~ msgstr "افزودن یا آپلود فایل"
+
+#~ msgid "Item {#}"
+#~ msgstr "آیتم {#}"
+
+#~ msgid "Something is wrong in addChannel on logger."
+#~ msgstr "اشکالی در فرایند افزودن کانال به لاگر به وجود آمده است."
+
+#~ msgid "Every %d Minutes"
+#~ msgstr "هر %d دقیقه"
+
+#~ msgid "%s ago"
+#~ msgstr "‏%s پیش"
+
+#~ msgid "Search result for: %s"
+#~ msgstr "نتیجه جستجو برای: %s"
+
+#~ msgid "Search"
+#~ msgstr "جستجو"
+
+#~ msgid "None AMP Version"
+#~ msgstr "نسخه غیر شتابدهی موبایل"
+
+#, fuzzy
+#~| msgid "AM"
+#~ msgid "AMP"
+#~ msgstr "ب.ظ"
+
+#~ msgid "General Setting"
+#~ msgstr "تنظیمات عمومی"
+
+#~ msgid "Enable AMP"
+#~ msgstr "فعال سازی شتابدهی موبایل"
+
+#~ msgid "Exclude Posts"
+#~ msgstr "نوشته‌های مستثنی"
+
+#~ msgid "Required parameters is missing for generate nonce"
+#~ msgstr "داده‌های مورد نیاز برای ایجاد nonce یافت نشد"
+
+#~ msgid "Name: %s"
+#~ msgstr "نام:‌ %s"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgid "Email: %s"
+#~ msgstr "ایمیل"
+
+#~ msgid "Roles: %s"
+#~ msgstr "نقش‌های کاربری: %s"
+
+#~ msgid "Username: %s"
+#~ msgstr "نام کاربری:‌ %s"
+
+#, fuzzy
+#~| msgid "Attribute Setting"
+#~ msgid "Attribute"
+#~ msgstr "تنظیمات ویژگی‌"
+
+#~ msgid "Taxonomies"
+#~ msgstr "تکسونومی‌ها"
+
+#~ msgid "Items"
+#~ msgstr "آیتم‌ها‌"
+
+#~ msgid "Enable Taxonomy"
+#~ msgstr "فعال سازی تکسنومی"
+
+#~ msgid "Single value"
+#~ msgstr "تک مقداری"
+
+#~ msgid "Icon of taxonomy"
+#~ msgstr "آیکون تکسونومی"
+
+#~ msgid "Slug"
+#~ msgstr "نامک"
+
+#, fuzzy
+#~| msgid "Taxonomies"
+#~ msgid "Taxonomy Name"
+#~ msgstr "تکسونومی‌ها"
+
+#~ msgid "Post Types"
+#~ msgstr "انواع نوشته"
+
+#~ msgid "Singular Name"
+#~ msgstr "نام منفرد"
+
+#~ msgid "Plural Name"
+#~ msgstr "نام جمع"
+
+#~ msgid "Description"
+#~ msgstr "شرح"
+
+#~ msgid "Posts Tagged: %s"
+#~ msgstr "نوشته‌هایی با برچسب: %s"
+
+#~ msgid "Error 404"
+#~ msgstr "خطا ۴۰۴"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Page %s"
+#~ msgstr "صفحه %s"
+
+#~ msgid "Comment Page %s"
+#~ msgstr "صفحه نظرات %s"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "نتیجه جستجو برای: %s"
+
+#~ msgid "Articles Posted by %s"
+#~ msgstr "مقالات ارسال شده توسط %s"
+
+#~ msgid "CMS"
+#~ msgstr "مدیریت محتوا"
+
+#, fuzzy
+#~| msgid "Comments"
+#~ msgid "Comment User"
+#~ msgstr "دیدگاه‌‌ها"
+
+#, fuzzy
+#~| msgid "Unknown"
+#~ msgid "Unknown Error"
+#~ msgstr "ناشناخته"
+
+#~ msgid "Required data not passed"
+#~ msgstr "داده‌های الزامی ارسال نشد‌اند"
+
+#, fuzzy
+#~| msgid "Your email client password."
+#~ msgid "Your email address is not valid."
+#~ msgstr "گذرواژه ارسال کننده ایمیل."
+
+#~ msgid "Cancel Reply"
+#~ msgstr "لغو پاسخ"
+
+#~ msgid "Toggle Form"
+#~ msgstr "نمایش فرم"
+
+#~ msgid "Submit"
+#~ msgstr "تایید"
+
+#~ msgid "Cancel reply"
+#~ msgstr "لغو پاسخ"
+
+#~ msgid "Comment"
+#~ msgstr "دیدگاه‌"
+
+#, fuzzy
+#~| msgid "Disable in selected posts."
+#~ msgid "Enable comment for selected post types."
+#~ msgstr "غیر فعال کردن برای نوشته‌های انتخاب شده."
+
+#~ msgid "Your comment successfully submitted."
+#~ msgstr "دیدگاه شما با موفقیت ثبت شد."
+
+#, fuzzy
+#~| msgid "Show hierarchy"
+#~ msgid "Sow Site Brand"
+#~ msgstr "نمایش سلسله مراتبی"
+
+#, fuzzy
+#~| msgid "Target Taxonomies"
+#~ msgid "Target Roles"
+#~ msgstr "تکسونومی‌های هدف"
+
+#~ msgid "There are no comments yet."
+#~ msgstr "هنوز دیدگاهی وجود ندارد."
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "دیدگاه شما پس از تایید نمایش داده خواهد شد."
+
+#, fuzzy
+#~| msgid "After noon"
+#~ msgid "Author Logo"
+#~ msgstr "بعد از ظهر"
+
+#~ msgid "%1$s at %2$s"
+#~ msgstr "‏%1$s در %2$s"
+
+#, fuzzy
+#~| msgid "Archives"
+#~ msgid "Date Archive"
+#~ msgstr "بایگانی‌ها"
+
+#~ msgid "Minimum width: %1$s pixels"
+#~ msgstr "حداقل عرض: %1$s پیکسل"
+
+#~ msgid "Minimum height: %1$s pixels"
+#~ msgstr "حداقل ارتفاع: %1$s پیکسل"
+
+#~ msgid "%s comments"
+#~ msgstr "%s دیدگاه"
+
+#~ msgid "%s minute"
+#~ msgstr "%s دقیقه"
+
+#~ msgid "Insert/edit link"
+#~ msgstr "درج/ویرایش پیوند"
+
+#~ msgid "Update"
+#~ msgstr "به روزرسانی"
+
+#~ msgid "Add Link"
+#~ msgstr "افزودن پیوند"
+
+#, fuzzy
+#~| msgid "Team title"
+#~ msgid "(no title)"
+#~ msgstr "عنوان تیم"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "No results found."
+#~ msgstr "هیچ نتیجه‌ای یافت نشد."
+
+#~ msgid "Add %s to link"
+#~ msgstr "اضافه کردن %s به پیوند"
+
+#~ msgid "Related Posts"
+#~ msgstr "نوشته‌های مرتبط"
+
+#~ msgid "Recommended Posts"
+#~ msgstr "نوشته‌های پشنهادی"
+
+#~ msgid "Post"
+#~ msgstr "نوشته‌"
+
+#~ msgid "Image Placeholder"
+#~ msgstr "تصویر پیشفرض"
+
+#~ msgid "Enable Metadata"
+#~ msgstr "فعال کردن فراداده‌ها"
+
+#~ msgid "Full Items"
+#~ msgstr "موارد کامل"
+
+#~ msgid "Compact Items"
+#~ msgstr "آیتم‌های جمع و جور"
+
+#, fuzzy
+#~| msgid "Enable Dominator"
+#~ msgid "Enable Show Signature"
+#~ msgstr "فعال سازی استخراج رنگ از تصویر"
+
+#, fuzzy
+#~| msgid "Origin Title"
+#~ msgid "Signature Title"
+#~ msgstr "عنوان اصلی"
+
+#, fuzzy
+#~| msgid "Card Description"
+#~ msgid "Signature Description"
+#~ msgstr "توضیحات کارت"
+
+#, fuzzy
+#~| msgid "Archives"
+#~ msgid "Archive"
+#~ msgstr "بایگانی‌ها"
+
+#, fuzzy
+#~| msgid "Post Type Archives"
+#~ msgid "Show Date Archive"
+#~ msgstr "آرشیو نوع نوشته"
+
+#, fuzzy
+#~| msgid "Archives"
+#~ msgid "Archive Type"
+#~ msgstr "بایگانی‌ها"
+
+#~ msgid "Weekly"
+#~ msgstr "هفتگی"
+
+#~ msgid "Monthly"
+#~ msgstr "ماهانه"
+
+#~ msgid "Relation"
+#~ msgstr "رابطه"
+
+#~ msgid "Tag"
+#~ msgstr "برچسب‌"
+
+#~ msgid "Category"
+#~ msgstr "دسته‌"
+
+#~ msgid "Updated At"
+#~ msgstr "تاریخ به روزرسانی"
+
+#~ msgid "Author"
+#~ msgstr "نویسنده"
+
+#~ msgid "Created At"
+#~ msgstr "تاریخ ایجاد"
+
+#~ msgid "Comments"
+#~ msgstr "دیدگاه‌‌ها"
+
+#~ msgid "Study time"
+#~ msgstr "زمان"
+
+#~ msgid "Post in Blog"
+#~ msgstr "نوشته در وبلاگ"
+
+#~ msgid "Comments on Posts"
+#~ msgstr "دیدگاه پیرامون نوشته‌ها"
+
+#~ msgid "%s words"
+#~ msgstr "%s کلمه"
+
+#~ msgid "Words"
+#~ msgstr "کلمات"
+
+#, fuzzy
+#~| msgid "Something went wrong no changes saved."
+#~ msgid "Something wrong on save your message."
+#~ msgstr "مشکلی به وجود آمده است، تغییرات ذخیره نشد."
+
+#, fuzzy
+#~| msgid "Ops!!! Something is wrong."
+#~ msgid "Something wrong on save your rate."
+#~ msgstr "اوپس!!! اشکالی به وجود آمده است."
+
+#, fuzzy
+#~| msgid "Required data not passed"
+#~ msgid "Required data not provided or not valid."
+#~ msgstr "داده‌های الزامی ارسال نشد‌اند"
+
+#, fuzzy
+#~| msgid "Secret Key is invalid."
+#~ msgid "Request is not valid."
+#~ msgstr "کلید خصوصی معتبر نیست."
+
+#~ msgid "Rate is not recorded. please try again."
+#~ msgstr "امتیاز ثبت نشد، لطفا دوباره تلاش کنید."
+
+#~ msgid "Rating"
+#~ msgstr "امتیاز"
+
+#~ msgid "Average Rating of %s"
+#~ msgstr "میانگین امتیاز از %s"
+
+#~ msgid "%s of %s %s"
+#~ msgstr "%s از %s %s"
+
+#~ msgid "Enable Rating"
+#~ msgstr "فعال سازی امتیازدهی"
+
+#~ msgid "Thanks Message"
+#~ msgstr "پیغام تشکر"
+
+#~ msgid "Thanks for your rating."
+#~ msgstr "از امتیاز‌ی که دادید متشکریم."
+
+#~ msgid "Enable reCAPTCHA"
+#~ msgstr "فعال سازی ری‌کپچا"
+
+#, fuzzy
+#~| msgid "Feeds"
+#~ msgid "Feedback"
+#~ msgstr "خوراک"
+
+#, fuzzy
+#~| msgid "Enable Cache"
+#~ msgid "Enable Feedback"
+#~ msgstr "فعال‌سازی کش"
+
+#~ msgid "Worse Threshold"
+#~ msgstr "آستانه بدترین امتیاز"
+
+#~ msgid "Ask a feedback question, if user rate less than threshold."
+#~ msgstr ""
+#~ "در صورتی که کاربر کمتر از آستانه امتیاز دهد، یک فرم بازخورد نشان داده "
+#~ "خواهد شد."
+
+#, fuzzy
+#~| msgid "Question"
+#~ msgid "Feedback Question"
+#~ msgstr "پرسش"
+
+#~ msgid "Share the reason behind this submission with us."
+#~ msgstr "علت ثبت این امتیاز کم رو با ما در میان بگذارید"
+
+#, fuzzy
+#~| msgid "Thanks Message"
+#~ msgid "Feedback Message"
+#~ msgstr "پیغام تشکر"
+
+#~ msgid "Thanks for your feedback."
+#~ msgstr "بابت بازخوردتون ممنونیم."
+
+#~ msgid "Popular %s"
+#~ msgstr "محبوب‌ترین %s"
+
+#~ msgid "Rating Average %s of %s | Rating Count: %s"
+#~ msgstr "میانگین امتیاز  %s از %s |  تعداد امتیاز: %s"
+
+#, fuzzy
+#~| msgid "Feeds"
+#~ msgid "Rating Feedback"
+#~ msgstr "خوراک"
+
+#~ msgid "Your opinion is important to us"
+#~ msgstr "نظر شما برای ما مهمه"
+
+#~ msgid "Rate this post %s to %s"
+#~ msgstr "به این نوشته از %s تا %s امتیاز بدین"
+
+#~ msgid "You have already rate %s to this post."
+#~ msgstr "شما قبلا امتیاز %s را برای این نوشته ثبت کرده‌اید."
+
+#, fuzzy
+#~| msgid "Setting"
+#~ msgid "CMS Setting"
+#~ msgstr "تنظیمات"
+
+#~ msgid "Setting"
+#~ msgstr "تنظیمات"
+
+#, fuzzy
+#~| msgid "Enable AMP"
+#~ msgid "Enable CMS"
+#~ msgstr "فعال سازی شتابدهی موبایل"
+
+#~ msgid "Text"
+#~ msgstr "متن"
+
+#~ msgid "Internal Link"
+#~ msgstr "لینک داخلی"
+
+#~ msgid "External Link"
+#~ msgstr "لینک به بیرون"
+
+#~ msgid "%s Title"
+#~ msgstr "عنوان %s"
+
+#~ msgid "%s Title to display."
+#~ msgstr "عنوان %s جهت نمایش."
+
+#~ msgid "Select a post"
+#~ msgstr "انتخاب یک نوشته"
+
+#~ msgid "Link of %s"
+#~ msgstr "پیوند %s"
+
+#~ msgid "%s Image"
+#~ msgstr "تصویر %s"
+
+#~ msgid "%s Description"
+#~ msgstr "شرح %s"
+
+#~ msgid "%s Description to display."
+#~ msgstr "عنوان %s جهت نمایش."
+
+#, fuzzy
+#~| msgid "Card Description"
+#~ msgid "Call to Action Description"
+#~ msgstr "توضیحات کارت"
+
+#, fuzzy
+#~| msgid "Code Text"
+#~ msgid "Action Text"
+#~ msgstr "متن کد"
+
+#, fuzzy
+#~| msgid "Icons Color"
+#~ msgid "Action Color"
+#~ msgstr "رنگ آیکون"
+
+#, fuzzy
+#~| msgid "Text of Link"
+#~ msgid "Action Link"
+#~ msgstr "متن پیوند"
+
+#, fuzzy
+#~| msgid "Icons Size"
+#~ msgid "Action Size"
+#~ msgstr "اندازه آیکون"
+
+#~ msgid "Small"
+#~ msgstr "کوچک"
+
+#~ msgid "Medium"
+#~ msgstr "متوسط"
+
+#~ msgid "Large"
+#~ msgstr "بزرگ"
+
+#~ msgid "%s column"
+#~ msgstr "%s ستونه"
+
+#~ msgid "Alignment"
+#~ msgstr "چینش"
+
+#~ msgid "Left align"
+#~ msgstr "چپ چین"
+
+#~ msgid "Center align"
+#~ msgstr "وسط چین"
+
+#~ msgid "Right align"
+#~ msgstr "راست چین"
+
+#, fuzzy
+#~| msgid "Boilerplate"
+#~ msgid "Boilerplate shortcodes"
+#~ msgstr "الزامات اولیه"
+
+#~ msgid "Table of Content"
+#~ msgstr "فهرست مطالب"
+
+#~ msgid "Enable"
+#~ msgstr "فعال"
+
+#~ msgid "Post types"
+#~ msgstr "نوع پست"
+
+#, fuzzy
+#~| msgid "Minimum heading count"
+#~ msgid "Minimum Heading Count"
+#~ msgstr "حداقل تعداد تیتر"
+
+#, fuzzy
+#~| msgid "Show hierarchy"
+#~ msgid "Show Hierarchy"
+#~ msgstr "نمایش سلسله مراتبی"
+
+#, fuzzy
+#~| msgid "Heading levels"
+#~ msgid "Heading Levels"
+#~ msgstr "عمق تیترها"
+
+#~ msgid "Disable in selected posts."
+#~ msgstr "غیر فعال کردن برای نوشته‌های انتخاب شده."
+
+#, fuzzy
+#~| msgid "Heading levels"
+#~ msgid "Heading Level %s (h%s)"
+#~ msgstr "عمق تیترها"
+
+#~ msgid "Close"
+#~ msgstr "بستن"
+
+#~ msgid "Show"
+#~ msgstr "نمایش"
+
+#, fuzzy
+#~| msgid "Already added"
+#~ msgid "Already saved."
+#~ msgstr "پیش از این افزوده شده است"
+
+#, fuzzy
+#~| msgid "%s updated successfully."
+#~ msgid "Visit save successfully."
+#~ msgstr "%s با موفقیت به روز شد."
+
+#, fuzzy
+#~| msgid "Something wrong in delete cache process"
+#~ msgid "Something wrong on save visit."
+#~ msgstr "اشکالی در فرایند حذف حافظه کش رخ داده است"
+
+#, fuzzy
+#~| msgid "Enable Virastar for"
+#~ msgid "Enable Visit Counter"
+#~ msgstr "فعال‌سازی ویراستار برای"
+
+#, fuzzy
+#~| msgid "Ops!!! Something is wrong."
+#~ msgid "Something is wrong, nonce is not valid."
+#~ msgstr "اوپس!!! اشکالی به وجود آمده است."
+
+#~ msgid "Google Map Location"
+#~ msgstr "نقشه مکانی گوگل مپ"
+
+#~ msgid "Contact Form"
+#~ msgstr "فرم ارتباط با ما"
+
+#~ msgid "Working Days"
+#~ msgstr "روز‌های کاری"
+
+#~ msgid "Working Hours"
+#~ msgstr "ساعات کاری"
+
+#~ msgid "Contact"
+#~ msgstr "ارتباط با ما"
+
+#~ msgid "Please enter at least 5."
+#~ msgstr "لطفا بیش از ۱۵ کاراکتر وارد کنید."
+
+#~ msgid "Please enter a valid email."
+#~ msgstr "لطفا یک آدرس ایمیل معتبر وارد کنید."
+
+#~ msgid "Please enter at least 5 characters."
+#~ msgstr "لطفا بیش از ۵ کاراکتر وارد کنید."
+
+#~ msgid "Please enter at least 15 characters."
+#~ msgstr "لطفا بیش از ۱۵ کاراکتر وارد کنید."
+
+#~ msgid "Subject"
+#~ msgstr "موضوع"
+
+#, fuzzy
+#~| msgid "Message"
+#~ msgid "Your Message"
+#~ msgstr "پیام"
+
+#~ msgid "Name"
+#~ msgstr "نام"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Logged in as %s."
+#~ msgstr "با عنوان %s وارد شده‌اید."
+
+#~ msgid "Log out?"
+#~ msgstr "خارج می‌شوید؟"
+
+#~ msgid "Contact Setting"
+#~ msgstr "تنظیمات ارتباط‌ با ما"
+
+#~ msgid "Enable Contact"
+#~ msgstr "فعال سازی ارتباط با ما"
+
+#~ msgid "Check this item to enable contact form functionality."
+#~ msgstr "با علامت زدن این گزینه، عملکرد فرم ارتباط با ما فعال می‌شود."
+
+#~ msgid "IP Collection"
+#~ msgstr "نگه‌داری آی پی"
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid "Check this item to enable collection of ip addresses."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#~ msgid "Advanced"
+#~ msgstr "پیشرفته"
+
+#~ msgid "Send Message Time Limit"
+#~ msgstr "محدودیت زمانی ارسال پیام"
+
+#~ msgid "Time limit for the user to resubmit a new message."
+#~ msgstr "تعیین محدودیت زمانی ارسال دوباره پیام جدید توسط کاربر."
+
+#~ msgid "Displayed to user after successful form submission."
+#~ msgstr "پس از ارسال موفق پیام، به کاربر نمایش داده می‌شود."
+
+#~ msgid "Reply Message"
+#~ msgstr "پاسخ پیام"
+
+#~ msgid ""
+#~ "Sent back to sender as reply message after form submission throw "
+#~ "confirmation email."
+#~ msgstr "پاسخ پیام کاربرکه از طریق ایمیل ارسال می‌شود."
+
+#~ msgid "Limitation Message"
+#~ msgstr "پیام محدودیت زمانی"
+
+#~ msgid "Displayed to user if already sent a message."
+#~ msgstr ""
+#~ "در صورتی که کاربر قبل از اتمام محدودیت زمانی، پیام جدیدی را ارسال کند، "
+#~ "نمایش داده می‌شود."
+
+#~ msgid "Information"
+#~ msgstr "اطلاعات"
+
+#~ msgid "Enable Contact Information"
+#~ msgstr "فعال سازی اطلاعات تماس"
+
+#~ msgid "Check this item to show contact information on front"
+#~ msgstr "برای نمایش اطلاعات تماس در سایت این گزینه‌را علامت بزنید"
+
+#~ msgid "Phone"
+#~ msgstr "تلفن"
+
+#~ msgid "separate by comma (,)"
+#~ msgstr "با کاما (ُ,) جدا کنید"
+
+#~ msgid "Fax"
+#~ msgstr "فکس"
+
+#~ msgid "Enable Opening Hours"
+#~ msgstr "فعال کردن بخش ساعات کاری"
+
+#~ msgid "Working days"
+#~ msgstr "روز‌های کاری"
+
+#~ msgid "Opening Hours"
+#~ msgstr "ساعات کاری"
+
+#~ msgid "Location"
+#~ msgstr "مکان"
+
+#~ msgid "Enable Google Map"
+#~ msgstr "فعال‌ سازی نقشه گوگل"
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid "Check this item to show location on front."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#~ msgid "Markup"
+#~ msgstr "مارکاپ"
+
+#~ msgid "Height"
+#~ msgstr "ارتفاع"
+
+#~ msgid "Preview"
+#~ msgstr "پیش‌نمایش"
+
+#~ msgid "Location preview on Google Maps"
+#~ msgstr "پیش‌نمایش نقشه گوگل"
+
+#~ msgid "Address"
+#~ msgstr "آدرس"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Direction"
+#~ msgstr "بخش نمایشی سایت"
+
+#~ msgid "Google Map Direction"
+#~ msgstr "مسیریابی نقشه گوگل"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Waze Direction"
+#~ msgstr "بخش نمایشی سایت"
+
+#~ msgid "Social"
+#~ msgstr "شبکه‌های اجتماعی"
+
+#~ msgid "Social Networks"
+#~ msgstr "شبکه‌های اجتماعی"
+
+#~ msgid "Show in Header"
+#~ msgstr "نمایش در سر تیتر سایت"
+
+#~ msgid "Show in Footer"
+#~ msgstr "نمایش در پاورقی"
+
+#~ msgid "Use as alt"
+#~ msgstr "استفاده به عنوان توضیح تصویر"
+
+#~ msgid "Url"
+#~ msgstr "پیوند"
+
+#~ msgid "Sorry, you send a Message less than %s hour ago, please try letter."
+#~ msgstr ""
+#~ "شما کمتر از %s ساعت پیش یک پیام ارسال کرده‌اید، لطفا بعدا دوباره تلاش کنید."
+
+#~ msgid "Thank you! You will receive a response as soon as possible."
+#~ msgstr "متشکرم، در کمترین زمان ممکن پاسخ ما را دریافت خواهید کرد."
+
+#~ msgid "Contact Information"
+#~ msgstr "اطلاعات تماس"
+
+#~ msgid "Submissions"
+#~ msgstr "پیام‌ها"
+
+#~ msgid "Submission"
+#~ msgstr "پیام‌"
+
+#~ msgid "Submission post type"
+#~ msgstr "نوع نوشته پیام"
+
+#~ msgid "IP"
+#~ msgstr "آی پی"
+
+#~ msgid "About %s"
+#~ msgstr "درباره %s"
+
+#~ msgid "Table"
+#~ msgstr "جدول"
+
+#, fuzzy
+#~| msgid "Order"
+#~ msgid "Bordered"
+#~ msgstr "ترتیب"
+
+#~ msgid "Fake data generated successfully."
+#~ msgstr "داده‌های فیک با موفقیت ایجاد شدند."
+
+#~ msgid "Data is Empty."
+#~ msgstr "داده خالی است."
+
+#~ msgid "Faker"
+#~ msgstr "فیک ساز"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgid "Generator"
+#~ msgstr "عمومی"
+
+#~ msgid "Attention"
+#~ msgstr "توجه"
+
+#~ msgid "Term Count"
+#~ msgstr "تعداد ترم"
+
+#~ msgid "Target Taxonomies"
+#~ msgstr "تکسونومی‌های هدف"
+
+#~ msgid "Term length"
+#~ msgstr "طول کلمه ترم"
+
+#~ msgid "Content length"
+#~ msgstr "طول محتوا"
+
+#~ msgid "Notice:"
+#~ msgstr "هشدار:"
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid "Check this item to remove all posts and terms from database."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#, fuzzy
+#~| msgid "General"
+#~ msgid "Generate"
+#~ msgstr "عمومی"
+
+#~ msgid "Icon"
+#~ msgstr "آیکون"
+
+#, fuzzy
+#~| msgid "Select Type"
+#~ msgid "Select Item #%d"
+#~ msgstr "انتخاب نوع"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Delete Permanently"
+#~ msgstr "حذف"
+
+#~ msgid "Edit \"%s\""
+#~ msgstr "ویرایش: %s"
+
+#~ msgid "Show more details"
+#~ msgstr "نمایش جزئیات بیشتر"
+
+#~ msgid "Edit"
+#~ msgstr "ویرایش"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Delete permanently"
+#~ msgstr "حذف"
+
+#~ msgid "%s could not be updated."
+#~ msgstr "به روز رسانی %s  امکان پذیر نیست."
+
+#~ msgid "%s updated successfully."
+#~ msgstr "%s با موفقیت به روز شد."
+
+#~ msgid "Save Changes"
+#~ msgstr "ذخیره تغییرات"
+
+#, fuzzy
+#~| msgid "Addons"
+#~ msgid "Add"
+#~ msgstr "افزونه‌‌ها"
+
+#, fuzzy
+#~| msgid "Number list items"
+#~ msgid "Number of items per page:"
+#~ msgstr "شماره زنی آیتم‌ها"
+
+#, fuzzy
+#~| msgid "%s updated"
+#~ msgid "%s item updated."
+#~ msgid_plural "%s items updated."
+#~ msgstr[0] "%s به روز شد"
+
+#, fuzzy
+#~| msgid "Successfully deleted."
+#~ msgid "%s item permanently deleted."
+#~ msgid_plural "%s items permanently deleted."
+#~ msgstr[0] "با موفقیت حذف شد."
+
+#~ msgid "Develop and Design"
+#~ msgstr "طراحی و توسعه"
+
+#~ msgid "By %s"
+#~ msgstr "توسط %s"
+
+#~ msgid "Engineer Peyman Mohamadpour design and development team"
+#~ msgstr "تیم طراحی و توسعه مهندس پیمان محمدپور"
+
+#~ msgid "Lock"
+#~ msgstr "قفل"
+
+#, fuzzy
+#~| msgid "Page %s"
+#~ msgid "Page for %s"
+#~ msgstr "صفحه %s"
+
+#, fuzzy
+#~| msgid "You do not have sufficient permissions to access this page."
+#~ msgid "Sorry, you haven't access to edit this page."
+#~ msgstr "شما دسترسی لازم برای مشاهده یا ویرایش این صفحه را ندارید."
+
+#, fuzzy
+#~| msgid "%s updated"
+#~ msgid "%s updated."
+#~ msgstr "%s به روز شد"
+
+#~ msgid "Custom field updated."
+#~ msgstr "فیلد سفارشی به روز شد."
+
+#, fuzzy
+#~| msgid "Successfully deleted."
+#~ msgid "Custom field deleted."
+#~ msgstr "با موفقیت حذف شد."
+
+#~ msgid "%s published."
+#~ msgstr "%s منشتر شد."
+
+#~ msgid "%s saved."
+#~ msgstr "%s ذخیره شد."
+
+#~ msgid "M j, Y @ G:i"
+#~ msgstr "‏M j, Y @ G:i"
+
+#, fuzzy
+#~| msgid "%s updated"
+#~ msgid "%s draft updated."
+#~ msgstr "%s به روز شد"
+
+#~ msgid "View %s"
+#~ msgstr "مشاهده %s"
+
+#~ msgid "Preview %s"
+#~ msgstr "پیش‌نمایش %s"
+
+#, fuzzy
+#~| msgid "Relation"
+#~ msgid "%s Relation"
+#~ msgstr "رابطه"
+
+#, fuzzy
+#~| msgid "Link of %s"
+#~ msgid "Subset of %s %s"
+#~ msgstr "پیوند %s"
+
+#, fuzzy
+#~| msgid "Add New %s"
+#~ msgid "Add %s"
+#~ msgstr "افزودن %s جدید"
+
+#~ msgid "%s archives"
+#~ msgstr "آرشیو %s"
+
+#~ msgid "New %s"
+#~ msgstr "افزودن %s"
+
+#~ msgid "Edit %s"
+#~ msgstr "ویرایش %s"
+
+#~ msgid "All %s"
+#~ msgstr "همه %s"
+
+#~ msgid "No %s found."
+#~ msgstr "%s یافت نشد."
+
+#~ msgid "%s attributes"
+#~ msgstr "ویژگی‌های %s"
+
+#~ msgid "%s list"
+#~ msgstr "لیست %s"
+
+#~ msgid "Update %s"
+#~ msgstr "به روز رسانی %s"
+
+#~ msgid "Search %s"
+#~ msgstr "جستجوی %s"
+
+#~ msgid "Add New %s"
+#~ msgstr "افزودن %s جدید"
+
+#~ msgid "%s updated"
+#~ msgstr "%s به روز شد"
+
+#~ msgid "%s published"
+#~ msgstr "%s منشتر شد"
+
+#~ msgid "%s scheduled"
+#~ msgstr "%s زمانبندی شد"
+
+#~ msgid "%s image"
+#~ msgstr "تصویر %s"
+
+#, fuzzy
+#~| msgctxt "Insert into Post"
+#~| msgid "Insert into %s"
+#~ msgid "Put into %s"
+#~ msgstr "افزودن به %s"
+
+#~ msgid "Filter %s list"
+#~ msgstr "فیلتر لیست %s"
+
+#~ msgid "Parent %s:"
+#~ msgstr "والد %s:"
+
+#~ msgid "Set %s image"
+#~ msgstr "تنظیم %s تصویر"
+
+#~ msgid "No %s found in Trash."
+#~ msgstr "%s در زباله‌دان یافت نشد."
+
+#~ msgid "Use as %s image"
+#~ msgstr "استفاده از %s به عنوان تصویر"
+
+#~ msgid "Remove %s image"
+#~ msgstr "حذف تصویر %s"
+
+#, fuzzy
+#~| msgid "%s Results"
+#~ msgid "%s pagination"
+#~ msgstr "%s نتیجه"
+
+#~ msgid "%s published privately"
+#~ msgstr "%s به صورت خصوصی منتشر شد"
+
+#~ msgid "Ops! Something is wrong. Are you try to add exist value?!"
+#~ msgstr ""
+#~ "مشکلی پیش آمده است، آیا شما سعی دارید مقداری را که وجود دارد را دوباره "
+#~ "وارد کنید؟!"
+
+#~ msgid "Ops! Something is wrong. Are you hacking?! :("
+#~ msgstr "اوپس! اشکالی به وجود آمده است. :("
+
+#~ msgid "Parent %s"
+#~ msgstr "والد %s"
+
+#, fuzzy
+#~| msgid "Add New %s"
+#~ msgid "Add or remove %s"
+#~ msgstr "افزودن %s جدید"
+
+#~ msgid "Choose from the most used %s"
+#~ msgstr "انتخاب از بین %s بیشتر انتخاب شده"
+
+#~ msgid "Separate %s with commas"
+#~ msgstr "%s را با کاما جدا کنید"
+
+#, fuzzy
+#~| msgid "There is no %s yet."
+#~ msgid "`There is no %s yet.`"
+#~ msgstr "هنوز %s وجود ندارد."
+
+#, fuzzy
+#~| msgid "Link of %s"
+#~ msgid "List of %s"
+#~ msgstr "پیوند %s"
+
+#~ msgid "Use For Icon"
+#~ msgstr "استفاده به عنوان آیکون"
+
+#, fuzzy
+#~| msgid "Check this item if you want show this item for anonymous users."
+#~ msgid "Check if you want show this attachment in icon list."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، این آیتم برای کاربران ثبت نام نکرده نیز نمایش داده "
+#~ "می‌شود."
+
+#~ msgid "SEO settings"
+#~ msgstr "تنظیمات سئو"
+
+#, fuzzy
+#~| msgid "Improve your seo by using these settings"
+#~ msgid "Improve your seo by using these settings."
+#~ msgstr "ارتقای سئو با استفاده از تنظیمات این بخش"
+
+#~ msgid "Aspect ratio based URLs"
+#~ msgstr "آدرس عکس بر حسب نسبت"
+
+#~ msgid "Use aspect ratio based image URLs like"
+#~ msgstr "آدرس عکس بر حسب نسبت"
+
+#~ msgid ""
+#~ "Sorry, this file couldn't be sanitized so for security reasons wasn't "
+#~ "uploaded"
+#~ msgstr ""
+#~ "متاسفم، قادر به پاکسازی فایل مورد نظر نبودیم، به دلایل امنیتی فایل آپلود "
+#~ "نشد"
+
+#, fuzzy
+#~| msgid "File Size"
+#~ msgid "Full Size"
+#~ msgstr "حجم فایل"
+
+#~ msgid "Thumbnail"
+#~ msgstr "تصویر بند انگشتی"
+
+#~ msgid "Ten"
+#~ msgstr "ده"
+
+#~ msgid "Eleven"
+#~ msgstr "یازده"
+
+#~ msgid "Twelve"
+#~ msgstr "دوازده"
+
+#~ msgid "Thirteen"
+#~ msgstr "سیزده"
+
+#~ msgid "Fourteen"
+#~ msgstr "چهارده"
+
+#~ msgid "Fifteen"
+#~ msgstr "پانزده"
+
+#~ msgid "Sixteen"
+#~ msgstr "شانزده"
+
+#~ msgid "Seventeen"
+#~ msgstr "هفده"
+
+#~ msgid "Eighteen"
+#~ msgstr "هجده"
+
+#~ msgid "Nineteen"
+#~ msgstr "نوزده"
+
+#~ msgid "Twenty"
+#~ msgstr "بیست"
+
+#~ msgid "Thirty"
+#~ msgstr "سی"
+
+#~ msgid "Forty"
+#~ msgstr "چهل"
+
+#~ msgid "Fifty"
+#~ msgstr "پنجاه"
+
+#~ msgid "Sixty"
+#~ msgstr "شست"
+
+#~ msgid "Seventy"
+#~ msgstr "هفتاد"
+
+#~ msgid "Eighty"
+#~ msgstr "هشتاد"
+
+#~ msgid "Ninety"
+#~ msgstr "نود"
+
+#~ msgid "One"
+#~ msgstr "یک"
+
+#~ msgid "Two"
+#~ msgstr "دو"
+
+#~ msgid "Three"
+#~ msgstr "سه"
+
+#~ msgid "Four"
+#~ msgstr "چهار"
+
+#~ msgid "Five"
+#~ msgstr "پنج"
+
+#~ msgid "Six"
+#~ msgstr "شش"
+
+#~ msgid "Seven"
+#~ msgstr "هفت"
+
+#~ msgid "Eight"
+#~ msgstr "هشت"
+
+#~ msgid "Nine"
+#~ msgstr "نه"
+
+#~ msgid "Saturday"
+#~ msgstr "شنبه"
+
+#~ msgid "Sunday"
+#~ msgstr "یکشنبه"
+
+#~ msgid "Monday"
+#~ msgstr "دوشنبه"
+
+#~ msgid "Tuesday"
+#~ msgstr "سه‌شنبه"
+
+#~ msgid "Wednesday"
+#~ msgstr "چارشنبه"
+
+#~ msgid "Thursday"
+#~ msgstr "پنجشنبه"
+
+#~ msgid "Friday"
+#~ msgstr "جمعه"
+
+#~ msgid "Snake"
+#~ msgstr "مار"
+
+#~ msgid "Horse"
+#~ msgstr "اسب"
+
+#~ msgid "Goat"
+#~ msgstr "بز"
+
+#~ msgid "Monkey"
+#~ msgstr "میمون"
+
+#~ msgid "Rooster"
+#~ msgstr "خروس"
+
+#~ msgid "Dog"
+#~ msgstr "سگ"
+
+#~ msgid "Pig"
+#~ msgstr "خوک"
+
+#~ msgid "Rat"
+#~ msgstr "موش"
+
+#~ msgid "Ox"
+#~ msgstr "گاو"
+
+#~ msgid "Tiger"
+#~ msgstr "ببر"
+
+#~ msgid "Rabbit"
+#~ msgstr "خرگوش"
+
+#~ msgid "Dragon"
+#~ msgstr "اژدها"
+
+#~ msgid "Spring"
+#~ msgstr "بهار"
+
+#~ msgid "Summer"
+#~ msgstr "تابستان"
+
+#~ msgid "Autumn"
+#~ msgstr "پاییز"
+
+#~ msgid "Winter"
+#~ msgstr "زمستان"
+
+#~ msgid "Sat"
+#~ msgstr "ش"
+
+#~ msgid "Sun"
+#~ msgstr "ی"
+
+#~ msgid "Mon"
+#~ msgstr "د"
+
+#~ msgid "Tue"
+#~ msgstr "س"
+
+#~ msgid "Wed"
+#~ msgstr "چ"
+
+#~ msgid "Thu"
+#~ msgstr "پ"
+
+#~ msgid "Fri"
+#~ msgstr "ج"
+
+#~ msgid "PM"
+#~ msgstr "ق.ظ"
+
+#~ msgid "AM"
+#~ msgstr "ب.ظ"
+
+#~ msgid "Before noon"
+#~ msgstr "قبل از ظهر"
+
+#~ msgid "After noon"
+#~ msgstr "بعد از ظهر"
+
+#, fuzzy
+#~| msgid "Reset Settings"
+#~ msgid "Jalali"
+#~ msgstr "بازنشانی تنظیمات"
+
+#~ msgid "Numbers"
+#~ msgstr "عددها"
+
+#~ msgid "Decimal symbol:"
+#~ msgstr "نمایشگر اعشار:"
+
+#~ msgid "Point"
+#~ msgstr "نقطه"
+
+#~ msgid "Slash"
+#~ msgstr "اسلش"
+
+#~ msgid "Single quote"
+#~ msgstr "تک کوتیشن"
+
+#~ msgid "Comma"
+#~ msgstr "کاما"
+
+#~ msgid "Thousand separator symbol:"
+#~ msgstr "جداساز هزارگان:"
+
+#~ msgid "Space"
+#~ msgstr "فاصله"
+
+#~ msgid "Front Page"
+#~ msgstr "بخش نمایشی سایت"
+
+#, fuzzy
+#~| msgid "Permalink"
+#~ msgid "Permalink Dates"
+#~ msgstr "پیوندهای یکتا"
+
+#~ msgid "Convert dates in permalink."
+#~ msgstr "تبدیل تاریخ در پیوندهای یکتا."
+
+#~ msgid "Administrator Panel"
+#~ msgstr "بخش مدیریت سایت"
+
+#, fuzzy
+#~| msgid "Target post types"
+#~ msgid "Virastar Target Post Types"
+#~ msgstr "نوع پست‌های مورد نظر"
+
+#~ msgid "Choice post types you want enable virastar for theme."
+#~ msgstr ""
+#~ "نوع نوشته‌هایی را که می‌خواهید ویراستار در آن‌ها فعال باشد را انتخاب کنید."
+
+#~ msgid "Plugins"
+#~ msgstr "افزونه‌ها"
+
+#~ msgid "Date & Time"
+#~ msgstr "تاریخ و ساعت"
+
+#~ msgid "Convert dates in this segment"
+#~ msgstr "تبدیل تاریخ در این بخش از سایت"
+
+#~ msgid "Letters"
+#~ msgstr "حروف"
+
+#~ msgid "Change arabic letters to farsi"
+#~ msgstr "تغییر حروف عربی به فارسی"
+
+#, fuzzy
+#~| msgid "Convert dates in this segment"
+#~ msgid "Convert numbers in this segment"
+#~ msgstr "تبدیل تاریخ در این بخش از سایت"
+
+#~ msgid "Writing Correction"
+#~ msgstr "اصلاح نگارشی"
+
+#~ msgid "Show all dates"
+#~ msgstr "نمایش همه‌ی تاریخ‌ها"
+
+#~ msgid "You try send email, but email configuration is wrong."
+#~ msgstr "شما قصد ارسال ایمیل را دارید، ولی تنظیمات ایمیل اشتباه است."
+
+#~ msgid "Something is wrong in mailer, error: %s"
+#~ msgstr "اشکالی در ارسال کننده ایمیل به وجود آمده است، خطا: %s"
+
+#~ msgid "Mailer"
+#~ msgstr "ایمیل"
+
+#~ msgid "Enable Mailer"
+#~ msgstr "فعال سازی ارسال ایمیل"
+
+#~ msgid "Check this item to enable mailer functionality."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#~ msgid "Email Address"
+#~ msgstr "پست الکترونیکی"
+
+#~ msgid "Host"
+#~ msgstr "هاست"
+
+#~ msgid "need to define."
+#~ msgstr "نیاز‌مند تعریف است ..."
+
+#~ msgid "Port"
+#~ msgstr "پورت"
+
+#~ msgid "Encryption"
+#~ msgstr "الگوی رمزنگاری"
+
+#~ msgid "Username"
+#~ msgstr "نام کاربری"
+
+#~ msgid "Password"
+#~ msgstr "گذرواژه"
+
+#~ msgid "Choice an option"
+#~ msgstr "یک گزینه را انتخاب کنید"
+
+#~ msgid "Add Another Entry"
+#~ msgstr "افزودن آیتم جدید"
+
+#~ msgid "Remove Entry"
+#~ msgstr "حذف"
+
+#~ msgid "ATF CSS Generation Process"
+#~ msgstr "فرآیند ایجاد CSS خط فولد"
+
+#~ msgid "Content is empty or file not exists"
+#~ msgstr "فایل مورد نظر وجود ندارد، یا محتوای آن خالی است"
+
+#, fuzzy
+#~| msgid "Successfully deleted."
+#~ msgid "ATF Successfully generated for %s in %s."
+#~ msgstr "با موفقیت حذف شد."
+
+#~ msgid "ATF not generated for %s in %s."
+#~ msgstr "خط فولد در %s برای %s ایجاد نشد."
+
+#~ msgid "Styles is empty."
+#~ msgstr "استایل‌ خالی است."
+
+#~ msgid "Permalink is empty."
+#~ msgstr "پیوند یکتا خالی است."
+
+#, fuzzy
+#~| msgid "Ops!!! Something is wrong."
+#~ msgid "Something is wrong %s."
+#~ msgstr "اوپس!!! اشکالی به وجود آمده است."
+
+#~ msgid "no response"
+#~ msgstr "پاسخی یافت نشد"
+
+#, fuzzy
+#~| msgid "Something wrong in delete cache process"
+#~ msgid "Something wrong in delete files."
+#~ msgstr "اشکالی در فرایند حذف حافظه کش رخ داده است"
+
+#~ msgid "Delete files successfully done: %s"
+#~ msgstr "پاک کردن فایل‌ها با موفقیت انجام شد: %s"
+
+#~ msgid "Like %s: first => Width & Second => Height"
+#~ msgstr "مانند %s: اولی => عرض و دومی =>‌ ارتفاع"
+
+#~ msgid "ATF"
+#~ msgstr "خط فولد"
+
+#~ msgid "Enable ATF"
+#~ msgstr "فعال سازی خط فولد"
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid "Check this item to enable ATF functionality."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#~ msgid "Enable Head Style"
+#~ msgstr "فعال سازی استایل هد"
+
+#~ msgid "enable this option to ignore css file and just use style in head."
+#~ msgstr ""
+#~ "با فعال کردن این گزینه همه استایل‌ها در هد صفحه اجرا می‌شوند (توصیه شده)"
+
+#~ msgid "Desktop screen sizes"
+#~ msgstr "سایز صفحه دسکتاپ"
+
+#~ msgid "Tablet screen sizes"
+#~ msgstr "سایز صفحه تبلت"
+
+#~ msgid "Mobile screen sizes"
+#~ msgstr "سایز صفحه موبایل"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Delete File"
+#~ msgstr "حذف"
+
+#~ msgid "Delete generated files by atf in %s and %s directory"
+#~ msgstr "پاک کردن فایل‌های ایجاد شده توسط خط فولد در %s و %s"
+
+#~ msgid "Force CSS code"
+#~ msgstr "استایل اضافی"
+
+#~ msgid "Default CSS"
+#~ msgstr "استایل CSS پیشفرض"
+
+#~ msgid "Enable Cache"
+#~ msgstr "فعال‌سازی کش"
+
+#~ msgid "User Cache"
+#~ msgstr "کش کاربر"
+
+#~ msgid "Enable caching for logged-in users."
+#~ msgstr "فعال‌سازی کش برای کاربران وارد شده."
+
+#~ msgid "Minute"
+#~ msgstr "دقیقه"
+
+#~ msgid "Hour"
+#~ msgstr "ساعت"
+
+#~ msgid "Day"
+#~ msgstr "روز"
+
+#~ msgid "Rules"
+#~ msgstr "قواعد"
+
+#~ msgid "Never Cache Cookies"
+#~ msgstr "کوکی ها را هرگز کش نکن"
+
+#, fuzzy
+#~| msgid "Cache Settings"
+#~ msgid "Cache Query Strings(s)"
+#~ msgstr "تنظیمات کش"
+
+#, fuzzy
+#~| msgid "Submissions"
+#~ msgid "Revisions"
+#~ msgstr "پیام‌ها"
+
+#~ msgid "Auto Drafts"
+#~ msgstr "پیش‌نویس خودکار"
+
+#, fuzzy
+#~| msgid "Comment"
+#~ msgid "Spam Comments"
+#~ msgstr "دیدگاه‌"
+
+#~ msgid "Trashed Posts"
+#~ msgstr "نوشته‌های حذف شده"
+
+#~ msgid "Tables"
+#~ msgstr "تبلت‌ها"
+
+#, fuzzy
+#~| msgid "Comment"
+#~ msgid "Trashed Comments"
+#~ msgstr "دیدگاه‌"
+
+#, fuzzy
+#~| msgid "%s Expired Pages"
+#~ msgid "Expired transients"
+#~ msgstr "%s برگه های منقضی شده"
+
+#~ msgid "Database"
+#~ msgstr "پایگاه داده"
+
+#~ msgctxt "noun"
+#~ msgid "Preload"
+#~ msgstr "پیش بارگذاری"
+
+#~ msgid "Scheduled Database Optimization"
+#~ msgstr "زمانبتدی بهینه‌سازی پایگاه داده"
+
+#~ msgid "Database Optimization Process"
+#~ msgstr "پردازش بهینه‌سازی پایگاه داده"
+
+#~ msgid "Media"
+#~ msgstr "رسانه"
+
+#~ msgid "Image"
+#~ msgstr "تصویر"
+
+#~ msgid "Enable Lazyload"
+#~ msgstr "فعال سازی بارگذاری تنبل"
+
+#~ msgid "Enable Dominator"
+#~ msgstr "فعال سازی استخراج رنگ از تصویر"
+
+#, fuzzy
+#~| msgid "Check this item, if you want show code in right fo screen"
+#~ msgid "Check this item if you want minify %s."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، کد مورد نظر در قسمت سمت راست صفحه نمایش داده خواهد "
+#~ "شد"
+
+#~ msgid "Minify"
+#~ msgstr "فشرده‌سازی"
+
+#~ msgid "Enable Minification"
+#~ msgstr "فعال‌سازی فشرده‌ سازی"
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid "Check this item to enable minify functionality."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#~ msgid "Minify HTML"
+#~ msgstr "فشرده‌سازی HTML"
+
+#~ msgid "Minify CSS"
+#~ msgstr "فشرده‌سازی CSS"
+
+#~ msgid "Minify JS"
+#~ msgstr "فشرده سازی JS"
+
+#~ msgid "Enable Performance"
+#~ msgstr "فعال‌سازی بازدهی"
+
+#~ msgid "Prefetch DNS Request"
+#~ msgstr "پیش درخواست DNS"
+
+#~ msgid "Preload Fonts"
+#~ msgstr "بارگیری فونت‌ها"
+
+#~ msgid "JavaScript"
+#~ msgstr "جاوااسکریپت"
+
+#, fuzzy
+#~| msgid "%s Image"
+#~ msgid "Remove jQuery Migrate"
+#~ msgstr "تصویر %s"
+
+#~ msgid "Load JavaScript deferred"
+#~ msgstr "بارگذاری جاوااسکریپت به صورت Deffer"
+
+#~ msgid "Preload"
+#~ msgstr "پیش بارگذاری"
+
+#~ msgid "Optimization"
+#~ msgstr "بهینه‌سازی"
+
+#~ msgid "Enable Optimization"
+#~ msgstr "فعال‌سازی بهینه‌سازی"
+
+#, fuzzy
+#~| msgid "Full Cache Files"
+#~ msgid "Delete All Cache Files"
+#~ msgstr "فایل های کش کامل"
+
+#, fuzzy
+#~| msgid "Delete generated files by atf in %s and %s directory"
+#~ msgid "Delete generated files by Cache and Critical"
+#~ msgstr "پاک کردن فایل‌های ایجاد شده توسط خط فولد در %s و %s"
+
+#~ msgid "Cleanup Scheduling"
+#~ msgstr "زمانبندی پاکسازی"
+
+#~ msgid "Automatic Cleanup"
+#~ msgstr "پاکسازی خودکار"
+
+#, fuzzy
+#~| msgid "Qualification Setting"
+#~ msgid "Qualification"
+#~ msgstr "تنظیمات مشخصه‌ها"
+
+#~ msgid "%s Customer"
+#~ msgstr "%s مشتری"
+
+#~ msgid "from %s until today"
+#~ msgstr "از %s تا امروز"
+
+#~ msgid "Anonymous users"
+#~ msgstr "کاربران ثبت نام نشده"
+
+#~ msgid "for load Google reCAPTCHA fill the form inputs."
+#~ msgstr "برای بارگذاری ریکپچا گوگل فیلد‌های فرم را پر کنید."
+
+#~ msgid "Please pass Google reCAPTCHA test."
+#~ msgstr "لطفا آزمایش ری‌کپچا گوگل را انجام دهید."
+
+#~ msgid "Please wait until Google reCAPTCHA is loaded."
+#~ msgstr "لطفا تا زمان بارگذاری ری‌کپچا گوگل صبر کنید."
+
+#~ msgid ""
+#~ "Failed to load Google reCAPTCHA. Please check your internet connection and "
+#~ "reload this page."
+#~ msgstr ""
+#~ "موفق به اجرای ری‌کپچا گوگل نشدیم، لطفا ارتباط اینترنت خود را بررسی کرده و "
+#~ "صفحه را مجدد بارگیری کنید."
+
+#~ msgid "Warning"
+#~ msgstr "اخطار"
+
+#~ msgid "User response is missing."
+#~ msgstr "پاسخ کاربر به آزمایش یافت نشد."
+
+#~ msgid "Secret Key is missing."
+#~ msgstr "کلید خصوصی یافت نشد."
+
+#~ msgid "Secret Key is invalid."
+#~ msgstr "کلید خصوصی معتبر نیست."
+
+#~ msgid "Check your domain configurations"
+#~ msgstr "اطلاعات دامنه خود را بررسی کنید"
+
+#~ msgid "and enter it again"
+#~ msgstr "و دوباره آن را وارد کنید"
+
+#~ msgid "User response is invalid"
+#~ msgstr "پاسخ کاربر معتبر نیست"
+
+#~ msgid "You have entered an incorrect reCAPTCHA value."
+#~ msgstr "مقدار خروجی آزمایش صحیح نیست."
+
+#~ msgid ""
+#~ "More than one reCAPTCHA has been found in the current form. Please remove "
+#~ "all unnecessary reCAPTCHA fields to make it work properly."
+#~ msgstr ""
+#~ "بیشتر از یک آزمایش در فرم جاری یافت شد. لطفا آزمایش‌های اضافی را حذف کنید."
+
+#~ msgid "reCaptcha v3 test failed"
+#~ msgstr "آزمایش شکست خورد"
+
+#~ msgid "Recaptcha"
+#~ msgstr "ری‌کپچا"
+
+#~ msgid "Error"
+#~ msgstr "خطا"
+
+#~ msgid "Click the BACK button on your browser and try again."
+#~ msgstr "لطفا کلید برگشت مرورگر خود را بزنید و دوباره امتحان کنید."
+
+#~ msgid "Authentication failed."
+#~ msgstr "احراز هویت شکست خورد."
+
+#~ msgid "reCaptcha"
+#~ msgstr "ری‌کپچا"
+
+#~ msgid "reCAPTCHA"
+#~ msgstr "ری‌کپچا"
+
+#~ msgid "Site Key"
+#~ msgstr "کلید عمومی"
+
+#~ msgid "You can generate keys from %s."
+#~ msgstr "شما می‌توانید کلید‌ها را از %s بسازید."
+
+#~ msgid "here"
+#~ msgstr "اینجا"
+
+#~ msgid "Secret Key"
+#~ msgstr "کلید خصوصی"
+
+#~ msgid "reCaptcha Version"
+#~ msgstr "نسخه ری‌کپچا"
+
+#~ msgid "Version 2"
+#~ msgstr "نسخه ۲"
+
+#~ msgid "Version 3"
+#~ msgstr "نسخه ۳"
+
+#~ msgid "Invisible"
+#~ msgstr "مخفی"
+
+#~ msgid "Enable reCaptcha For"
+#~ msgstr "فعال سازی ری‌کپچا برای"
+
+#~ msgid "Hide reCaptcha For"
+#~ msgstr "پنهان کرده ری‌کپچا برای"
+
+#~ msgid "Hide reCaptcha Badge"
+#~ msgstr "پنهان کردن نشان ری‌کپچا"
+
+#~ msgid "Enable to hide reCaptcha Badge for Version 3 and Invisible reCaptcha."
+#~ msgstr "بری مخفی کردن نشان ری‌کپچا از گزینه را فعال کنید."
+
+#~ msgid "Use reCaptcha Globally"
+#~ msgstr "به استفاده به صورت جهانی"
+
+#~ msgid ""
+#~ "Enable to use reCaptcha when Google is not accessible or blocked in your "
+#~ "country."
+#~ msgstr ""
+#~ "اگر مشکلی با اتصال به گوگل در کشور خود دارید، این گزینه را فعال کنید."
+
+#~ msgid "Disabled Submit Button"
+#~ msgstr "غیر فعال کردن دکمه تایید"
+
+#~ msgid ""
+#~ "Enable to keep submit button disabled until user passes the reCaptcha test "
+#~ "(for Version 2)."
+#~ msgstr ""
+#~ "غیر فعال کردن دکمه تایید فرم، تا زمانی که کابر آزمایش ری‌کپچا را انجام دهد "
+#~ "(برای نسخه ۲)."
+
+#~ msgid "Whitelist"
+#~ msgstr "لیست سفید"
+
+#, fuzzy
+#~| msgid "Number list items"
+#~ msgid "Whitelist items"
+#~ msgstr "شماره زنی آیتم‌ها"
+
+#~ msgid "IP Address"
+#~ msgstr "آدرس آی پی"
+
+#~ msgid "Allowed format %s"
+#~ msgstr "فرمت مجاز %s"
+
+#~ msgid "Whitelist Notification"
+#~ msgstr "اعلان بودن در لیست سفید"
+
+#, fuzzy
+#~| msgid "Ops!!! Something is wrong."
+#~ msgid "Something like:"
+#~ msgstr "اوپس!!! اشکالی به وجود آمده است."
+
+#~ msgid "You are in the whitelist."
+#~ msgstr "شما در لیست سفید قرار دارید."
+
+#~ msgid "Login Form"
+#~ msgstr "فرم ورود"
+
+#, fuzzy
+#~| msgid "Register"
+#~ msgid "Registration Form"
+#~ msgstr "ریجیستر"
+
+#, fuzzy
+#~| msgid "Reset Password"
+#~ msgid "Reset Password Form"
+#~ msgstr "بازنشانی گذرواژه"
+
+#, fuzzy
+#~| msgid "Comment"
+#~ msgid "Comments Form"
+#~ msgstr "دیدگاه‌"
+
+#~ msgid "Try more word"
+#~ msgstr "حروف بیشتری را امتحان کنید"
+
+#~ msgid "Already added"
+#~ msgstr "پیش از این افزوده شده است"
+
+#~ msgid "Successfully update."
+#~ msgstr "با موفقیت به‌ روزرسانی شد."
+
+#~ msgid "Something is wrong in update process, please try later."
+#~ msgstr "اشکالی در فرایند به‌روزرسانی رخ داده است، لطفل دوباره امتحان کنید."
+
+#~ msgid "Successfully deleted."
+#~ msgstr "با موفقیت حذف شد."
+
+#~ msgid "Something is wrong in delete process, please try later."
+#~ msgstr "اشکالی در فرایند حذف رخ داده است، لطفل دوباره امتحان کنید."
+
+#, fuzzy
+#~| msgid "Type name of a %s"
+#~ msgid "Type Name of a %s"
+#~ msgstr "نام یک %s را بنویسید"
+
+#, fuzzy
+#~| msgid "Priority"
+#~ msgid "Relation with %s"
+#~ msgstr "اولویت"
+
+#, fuzzy
+#~| msgid "Something is wrong in addChannel on logger."
+#~ msgid "Something is wrong in relation field rendering"
+#~ msgstr "اشکالی در فرایند افزودن کانال به لاگر به وجود آمده است."
+
+#, fuzzy
+#~| msgid "Position"
+#~ msgid "MetaBox Position"
+#~ msgstr "موقعیت"
+
+#~ msgid "Sidebar"
+#~ msgstr "سایدبار"
+
+#~ msgid "Bottom"
+#~ msgstr "پایین"
+
+#, fuzzy
+#~| msgid "Adminpanel"
+#~ msgid "Admin Panel Name"
+#~ msgstr "نمای مدیریت"
+
+#, fuzzy
+#~| msgid "Display as dropdown"
+#~ msgid "Display Layout"
+#~ msgstr "نمایش به‌عنوان فهرست بازشو"
+
+#~ msgid "Cards"
+#~ msgstr "کارت ها"
+
+#~ msgid "Slider"
+#~ msgstr "اسلایدر"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Destination"
+#~ msgstr "شرح"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Origin Location"
+#~ msgstr "مکان"
+
+#, fuzzy
+#~| msgid "Session Duration"
+#~ msgid "Destination Location"
+#~ msgstr "مدت جلسه"
+
+#, fuzzy
+#~| msgid "Icons Size"
+#~ msgid "Origin Items Per View"
+#~ msgstr "اندازه آیکون"
+
+#, fuzzy
+#~| msgid "Icons Size"
+#~ msgid "Destination Items Per View"
+#~ msgstr "اندازه آیکون"
+
+#, fuzzy
+#~| msgid "Priority"
+#~ msgid "Origin Priority"
+#~ msgstr "اولویت"
+
+#, fuzzy
+#~| msgid "Priority"
+#~ msgid "Destination Priority"
+#~ msgstr "اولویت"
+
+#~ msgid "Origin Title"
+#~ msgstr "عنوان اصلی"
+
+#~ msgid "Notice"
+#~ msgstr "هشدار"
+
+#~ msgid "Taxonomy Relations"
+#~ msgstr "رابطه بین تکسونومی‌ها"
+
+#, fuzzy
+#~| msgid "Check this item to enable Relation functionality"
+#~ msgid "Check this item if you want enable relation functionality for %s."
+#~ msgstr "با علامت زدن این گزینه، امکان ایجاد ارتباط بین موجودیت‌ها فراهم می‌شود"
+
+#, fuzzy
+#~| msgid "Priority"
+#~ msgid "Destination show priority."
+#~ msgstr "اولویت"
+
+#~ msgid "Relations"
+#~ msgstr "رابطه‌ها"
+
+#~ msgid "Enable Relation functionality."
+#~ msgstr "قعال سازی عملکرد ارتباط بین موجودیت‌ها."
+
+#~ msgid "Button"
+#~ msgstr "دکمه"
+
+#~ msgid "Text of Button"
+#~ msgstr "متن دکمه"
+
+#~ msgid "Link of Button"
+#~ msgstr "پیوند دکمه"
+
+#~ msgid "Show icon in right of button"
+#~ msgstr "نمایش آیکون در سمت راست دکمه"
+
+#~ msgid "Card"
+#~ msgstr "کارت"
+
+#~ msgid "Card Title"
+#~ msgstr "عنوان کارت"
+
+#~ msgid ""
+#~ "if you fill this item, we show title and excerpt of selected post in card."
+#~ msgstr ""
+#~ "اگر این مورد را پر کنید ، عنوان و گزیده ای از پیام های انتخاب شده را در "
+#~ "کارت نشان می دهیم."
+
+#~ msgid "%s Icon to display."
+#~ msgstr "آیکون %s برای نمایش."
+
+#~ msgid "%s Icon color."
+#~ msgstr "رنگ آیکون %s."
+
+#~ msgid "Image or icon width"
+#~ msgstr "عرض آیکون یا تصویر"
+
+#~ msgid "Card Description"
+#~ msgstr "توضیحات کارت"
+
+#~ msgid "Buttons of card"
+#~ msgstr "دکمه‌های کارت"
+
+#~ msgid "Title of Button"
+#~ msgstr "عنوان دکمه"
+
+#~ msgid "Color of Button"
+#~ msgstr "رنگ دکمه"
+
+#~ msgid "Code"
+#~ msgstr "کد"
+
+#~ msgid "Language"
+#~ msgstr "زبان"
+
+#~ msgid "Select your Opinion code language."
+#~ msgstr "زبان برنامه نویسی مورد نظر خود را انتخاب کنید."
+
+#~ msgid "Right position"
+#~ msgstr "موقعیت سمت راست"
+
+#~ msgid "Check this item, if you want show code in right fo screen"
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، کد مورد نظر در قسمت سمت راست صفحه نمایش داده خواهد "
+#~ "شد"
+
+#~ msgid "Code Text"
+#~ msgstr "متن کد"
+
+#~ msgid "Write your code here."
+#~ msgstr "کد مورد نظر خود را اینجا بنویسید."
+
+#~ msgid "Consultation"
+#~ msgstr "مشاوره"
+
+#~ msgid "Just press %s button, to add this shortcode."
+#~ msgstr "برای افزودن این شورت‌کد فقط کافیست دکمه %s را بزنید."
+
+#~ msgid "Free Consultation"
+#~ msgstr "مشاوره رایگان"
+
+#~ msgid "For %s contact us"
+#~ msgstr "جهت %s با ما تماس بگیرید"
+
+#~ msgid "Contact us"
+#~ msgstr "ارتباط با ما"
+
+#~ msgid "Download"
+#~ msgstr "دانلود"
+
+#~ msgid "Files"
+#~ msgstr "فایل ها"
+
+#~ msgid "Select Files you want add as download to this post"
+#~ msgstr ""
+#~ "فایل‌هایی را که می‌خواهید برای دانلود، به این نوشته اضافه کنید را انتخاب کنید"
+
+#~ msgid "File type"
+#~ msgstr "نوع فایل"
+
+#~ msgid "File Size"
+#~ msgstr "حجم فایل"
+
+#~ msgid "Download count"
+#~ msgstr "تعداد دانلود"
+
+#~ msgid "%s times"
+#~ msgstr "%s بار"
+
+#~ msgid "Download File"
+#~ msgstr "دانلود فایل"
+
+#~ msgid "Unknown"
+#~ msgstr "ناشناخته"
+
+#~ msgid "End Container"
+#~ msgstr "شورتکد پایان"
+
+#~ msgid ""
+#~ "This shortcode used for close %s, no setting available. remember just use "
+#~ "%s after %s. for use this shortcode just press %s button"
+#~ msgstr ""
+#~ "این شورتکد برای بستن %s استفاده می‌شود، هیچ تنظیمی برای این شورتکد وجود "
+#~ "ندارد. به یاد داشته باشید از %s فقط بعد از %s استفاده شود. برای استفاده از "
+#~ "این شورتکد فقط دکمه %s را بزنید"
+
+#~ msgid "Start Container"
+#~ msgstr "شورتکد شروع"
+
+#~ msgid "Example"
+#~ msgstr "مثال"
+
+#~ msgid "Form"
+#~ msgstr "فرم"
+
+#~ msgid "Search From"
+#~ msgstr "فرم جستجو"
+
+#~ msgid "Free Box"
+#~ msgstr "متن آزاد"
+
+#~ msgid "Gallery"
+#~ msgstr "گالری"
+
+#~ msgid "Icons Size"
+#~ msgstr "اندازه آیکون"
+
+#~ msgid "Icons Color"
+#~ msgstr "رنگ آیکون"
+
+#~ msgid "Has Card"
+#~ msgstr "دارای کارت"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Icon and left text"
+#~ msgstr "بخش نمایشی سایت"
+
+#~ msgid "Icon top and text"
+#~ msgstr "آیکو در بالا به همراه متن"
+
+#~ msgid "Just image"
+#~ msgstr "فقط تصویر"
+
+#~ msgid "Link"
+#~ msgstr "پیوند"
+
+#~ msgid "Title of Link"
+#~ msgstr "عنوان پیوند"
+
+#~ msgid "Select a Image"
+#~ msgstr "انتخاب یک تصویر"
+
+#~ msgid "Text of Link"
+#~ msgstr "متن پیوند"
+
+#~ msgid "Image and text"
+#~ msgstr "تصویر و متن"
+
+#~ msgid "Prerequisite of Study"
+#~ msgstr "پیش‌نیاز مطالعه"
+
+#~ msgid "Question"
+#~ msgstr "پرسش"
+
+#~ msgid "Answer"
+#~ msgstr "پاسخ"
+
+#~ msgid "Optional"
+#~ msgstr "اختیاری"
+
+#~ msgid "Quotation"
+#~ msgstr "نقل قول"
+
+#~ msgid "Study Recommendation"
+#~ msgstr "پیشنهاد برای مطالعه"
+
+#~ msgid "Shortcodes"
+#~ msgstr "شورت‌کدها"
+
+#~ msgid "Related"
+#~ msgstr "مطلب مرتبط"
+
+#~ msgid "Rights"
+#~ msgstr "باید‌ها"
+
+#~ msgid "%s Results"
+#~ msgstr "%s نتیجه"
+
+#~ msgid "Services"
+#~ msgstr "خدمات"
+
+#~ msgid "Service Details"
+#~ msgstr "جزئیات خدمت"
+
+#~ msgid "Post Type"
+#~ msgstr "نوع نوشته"
+
+#~ msgid "What kind of post type, show in card?"
+#~ msgstr "چه نوع نوشته‌ای، در کارت‌ نمایش داده شود؟"
+
+#, fuzzy
+#~| msgid "Select a post"
+#~ msgid "Select post type"
+#~ msgstr "انتخاب یک نوشته"
+
+#~ msgid "Specific Posts"
+#~ msgstr "نوشته‌های انتخابی"
+
+#~ msgid "Select some posts"
+#~ msgstr "انتخاب نوشته‌"
+
+#~ msgid "Limit of posts"
+#~ msgstr "محدودیت تعداد نوشته"
+
+#~ msgid "What many of posts, show in card?"
+#~ msgstr "چه نوع نوشته‌ای، در کارت‌ نمایش داده شود؟"
+
+#~ msgid "Order By"
+#~ msgstr "مرتب‌شده به وسیله"
+
+#~ msgid "Date"
+#~ msgstr "تاریخ"
+
+#~ msgid "Post ID"
+#~ msgstr "شناسه نوشته"
+
+#~ msgid "Post Title"
+#~ msgstr "عنوان نوشته"
+
+#~ msgid "Post Author"
+#~ msgstr "نویسنده نوشته"
+
+#~ msgid "Random"
+#~ msgstr "تصادفی"
+
+#~ msgid "Parameter to use for sorting."
+#~ msgstr "پارامتر‌های استفاده شده در مرتب‌سازی."
+
+#~ msgid "Choice Order by"
+#~ msgstr "انتخاب پارامتر مرتب سازی"
+
+#~ msgid "Order"
+#~ msgstr "ترتیب"
+
+#~ msgid "Descending"
+#~ msgstr "صعودی"
+
+#~ msgid "Ascending"
+#~ msgstr "نزولی"
+
+#~ msgid "Sort order."
+#~ msgstr "ترتیب مرتب‌سازی."
+
+#~ msgid "Choice Order"
+#~ msgstr "انتخاب ترتیب نمایش"
+
+#~ msgid "Shortcode Title"
+#~ msgstr "عنوان کلی شورتکد"
+
+#~ msgid "Shortcode Description"
+#~ msgstr "توضیحات کلی شورتکد"
+
+#~ msgid "Justify text"
+#~ msgstr "متن همتراز"
+
+#~ msgid "Justify For %s"
+#~ msgstr "متن همتراز %s"
+
+#~ msgid "Alignment For %s"
+#~ msgstr "چینش %s"
+
+#~ msgid "Just Image"
+#~ msgstr "فقط تصویر"
+
+#~ msgid "Full Image Slider"
+#~ msgstr "اسلایدر سرتاسری"
+
+#~ msgid "Image and Content"
+#~ msgstr "تصویر و محتوا"
+
+#~ msgid "Full Image and Content"
+#~ msgstr "تصویر و محتوا سرتاسری"
+
+#~ msgid "Full Image (for brands)"
+#~ msgstr "تصویر و محتوا سرتاسری (برای اسلایدر برند)"
+
+#, fuzzy
+#~| msgid "Start Container"
+#~ msgid "Has Container"
+#~ msgstr "شورتکد شروع"
+
+#~ msgid "Stat and Information"
+#~ msgstr "آمار و اطلاعات"
+
+#~ msgid "Team"
+#~ msgstr "تیم"
+
+#~ msgid "Teams"
+#~ msgstr "تیم‌ها"
+
+#~ msgid "Team title"
+#~ msgstr "عنوان تیم"
+
+#~ msgid "Manager"
+#~ msgstr "مدیر"
+
+#~ msgid "Select a user as manager"
+#~ msgstr "انتخاب مدیر"
+
+#~ msgid "Partners"
+#~ msgstr "همکاران"
+
+#~ msgid "Select some users as partners"
+#~ msgstr "انتخاب همکاران"
+
+#~ msgid "Tip"
+#~ msgstr "نکته"
+
+#~ msgid "Who is"
+#~ msgstr "کیست"
+
+#~ msgid "Number of posts"
+#~ msgstr "تعداد پست ها"
+
+#~ msgid "User"
+#~ msgstr "کاربر"
+
+#~ msgid "Image width"
+#~ msgstr "عرض تصویر"
+
+#~ msgid "%s Years"
+#~ msgstr "%s سال"
+
+#~ msgid "Who is %s?"
+#~ msgstr "%s کیست؟"
+
+#~ msgid "Consultation, Supervision, Implementation"
+#~ msgstr "مشاوره، نظارت و اجرا"
+
+#~ msgid "See all"
+#~ msgstr "مشاهده‌ همه"
+
+#~ msgid "Company or organization"
+#~ msgstr "شرکت یا موسسه"
+
+#~ msgid "From"
+#~ msgstr "از"
+
+#~ msgid "To"
+#~ msgstr "تا"
+
+#~ msgid "Organization"
+#~ msgstr "موسسه"
+
+#~ msgid "Now"
+#~ msgstr "امروز"
+
+#~ msgid "Wikipedia"
+#~ msgstr "ویکی‌پدیا"
+
+#~ msgid "Wikipedia url"
+#~ msgstr "لینک ویکی‌پدیا"
+
+#~ msgid "Wrongs"
+#~ msgstr "نباید‌ها"
+
+#~ msgid "FAQ"
+#~ msgstr "پرسش‌های رایج"
+
+#~ msgid "Dollar"
+#~ msgstr "دلار"
+
+#~ msgid "Rial"
+#~ msgstr "ریال"
+
+#~ msgid "How To DO"
+#~ msgstr "نحوه انجام کار"
+
+#~ msgid "Cost"
+#~ msgstr "هزینه"
+
+#~ msgid "Total Time"
+#~ msgstr "زمان کل"
+
+#~ msgid "Steps"
+#~ msgstr "مراحل"
+
+#~ msgid "Tools"
+#~ msgstr "ابزار‌ها"
+
+#~ msgid "Supplies"
+#~ msgstr "مقدمات"
+
+#~ msgid "Step %s: %s"
+#~ msgstr "مرحله %s: %s"
+
+#~ msgid "Total Time Unit"
+#~ msgstr "واحد زمان کل"
+
+#~ msgid "Estimated Cost"
+#~ msgstr "هزینه"
+
+#, fuzzy
+#~| msgid "Reset Password"
+#~ msgid "Currency"
+#~ msgstr "بازنشانی گذرواژه"
+
+#~ msgid "USA Dollar"
+#~ msgstr "دلار"
+
+#~ msgid "IRI Rial"
+#~ msgstr "ریال"
+
+#, fuzzy
+#~| msgid "Actions"
+#~ msgid "Instructions"
+#~ msgstr "عملیات"
+
+#, fuzzy
+#~| msgid "Please enter at least 5 characters."
+#~ msgid "Begin tip lines with a # character."
+#~ msgstr "لطفا بیش از ۵ کاراکتر وارد کنید."
+
+#~ msgid "%s Hours"
+#~ msgstr "%s ساعت "
+
+#~ msgid "%s Days"
+#~ msgstr "%s روز"
+
+#, fuzzy
+#~| msgid "%s minute"
+#~ msgid "%s Minutes"
+#~ msgstr "%s دقیقه"
+
+#, fuzzy
+#~| msgid "Schema App Structured Data"
+#~ msgid "Structured Data"
+#~ msgstr "طرح کلی برنامه ساختار داده"
+
+#~ msgid "Tag %s"
+#~ msgstr "برچسب %s"
+
+#, fuzzy
+#~| msgid "Created At"
+#~ msgid "Creative Work"
+#~ msgstr "تاریخ ایجاد"
+
+#, fuzzy
+#~| msgid "Static Data"
+#~ msgid "Intangible Data"
+#~ msgstr "داده ایجادی"
+
+#~ msgid "Contact Point"
+#~ msgstr "نقطه تماس"
+
+#~ msgid "Telephone"
+#~ msgstr "تلفن"
+
+#~ msgid "Contact Type"
+#~ msgstr "نوع ارتباط"
+
+#~ msgid "Product Supported"
+#~ msgstr "پشتیبانی محصولات"
+
+#~ msgid "Serve Area"
+#~ msgstr "منطقه خدمت"
+
+#~ msgid "Available Hours"
+#~ msgstr "ساعات در دسترس"
+
+#~ msgid "Postal Address"
+#~ msgstr "آدرس پستی"
+
+#~ msgid "Country"
+#~ msgstr "کشور"
+
+#~ msgid "Locality"
+#~ msgstr "محل"
+
+#, fuzzy
+#~| msgid "Register"
+#~ msgid "Region"
+#~ msgstr "ریجیستر"
+
+#~ msgid "Office Box Number"
+#~ msgstr "کد پستی دفتر"
+
+#~ msgid "Postal Code"
+#~ msgstr "کد پستی"
+
+#~ msgid "Street Address"
+#~ msgstr "آدرس خیابان"
+
+#~ msgid "Day of Weeks"
+#~ msgstr "روز هفته"
+
+#~ msgid "Open Hour"
+#~ msgstr "ساعات شروع به کار"
+
+#~ msgid "Close Hour"
+#~ msgstr "ساعت پایان کار"
+
+#~ msgid "Organization Data"
+#~ msgstr "داده سازمانی"
+
+#~ msgid "Logo"
+#~ msgstr "لوگو"
+
+#~ msgid "Valid types: %s"
+#~ msgstr "انواع معتبر: %s"
+
+#~ msgid "Contact Points"
+#~ msgstr "نقاط ارتباط"
+
+#~ msgid "Served Area"
+#~ msgstr "منطقه خدمت رسانی"
+
+#, fuzzy
+#~| msgid "Static Data"
+#~ msgid "Place Data"
+#~ msgstr "داده ایجادی"
+
+#~ msgid "City"
+#~ msgstr "شهر"
+
+#~ msgid "Cities"
+#~ msgstr "شهر‌ها"
+
+#, fuzzy
+#~| msgid "Schema App Structured Data"
+#~ msgid "Enable Structured Data"
+#~ msgstr "طرح کلی برنامه ساختار داده"
+
+#~ msgid "Page"
+#~ msgstr "صفحه"
+
+#~ msgid "Post Type Singles"
+#~ msgstr "صفحات نوع نوشته‌"
+
+#~ msgid "Post Type Archives"
+#~ msgstr "آرشیو نوع نوشته"
+
+#~ msgid "Taxonomy Singles"
+#~ msgstr "صفحه یک تکسنومی"
+
+#, fuzzy
+#~| msgid "Taxonomies"
+#~ msgid "Taxonomy Archives"
+#~ msgstr "تکسونومی‌ها"
+
+#~ msgid "Pages"
+#~ msgstr "برگه‌ها"
+
+#~ msgid "Blog"
+#~ msgstr "وبلاگ"
+
+#~ msgid "Single"
+#~ msgstr "یک صفحه"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#, fuzzy
+#~| msgid "Icons Size"
+#~ msgid "Item Per View"
+#~ msgstr "اندازه آیکون"
+
+#~ msgid "Count"
+#~ msgstr "تعداد"
+
+#~ msgid "Posts"
+#~ msgstr "نوشته‌ها"
+
+#~ msgid "Custom"
+#~ msgstr "سفارشی"
+
+#~ msgid "Alphabetic"
+#~ msgstr "الفبایی"
+
+#~ msgid "Most Recently"
+#~ msgstr "آخرین‌ها"
+
+#~ msgid "Custom Posts"
+#~ msgstr "نوشته‌های سفارشی"
+
+#~ msgid "Content"
+#~ msgstr "محتوا"
+
+#, fuzzy
+#~| msgid "Link"
+#~ msgid "Links"
+#~ msgstr "پیوند"
+
+#~ msgid "Previous"
+#~ msgstr "قبلی"
+
+#~ msgid "Next"
+#~ msgstr "بعدی"
+
+#, fuzzy
+#~| msgid "Reset Password"
+#~ msgid "Current"
+#~ msgstr "بازنشانی گذرواژه"
+
+#~ msgid "Page navigation"
+#~ msgstr "ناوربری صفحه"
+
+#~ msgid "Theme"
+#~ msgstr "پوسته"
+
+#~ msgid "Choose website logo."
+#~ msgstr "لگوی وب‌سایت را انتخاب کنید."
+
+#~ msgid "Small Logo"
+#~ msgstr "لوگوی کوچک"
+
+#~ msgid "If you have a small version of logo upload it here."
+#~ msgstr "اگر نسخه کوچکتری از لگوی خود دارید در این قسمت قرار دهید."
+
+#~ msgid "Footer Logo"
+#~ msgstr "لگو پاورقی سایت"
+
+#~ msgid "Not Svg Logo"
+#~ msgstr "نسخه غیر وکتوری لوگو"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Locations Guide"
+#~ msgstr "مکان"
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid "Enable this option, to show locations to admin in theme."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#~ msgid "Footer"
+#~ msgstr "پاورقی سایت"
+
+#~ msgid "Pages in Footer"
+#~ msgstr "لینک‌های پاورقی سایت"
+
+#~ msgid "Item"
+#~ msgstr "آیتم‌"
+
+#~ msgid "Leave empty if you want show page title."
+#~ msgstr "اگر می‌خواهید عنوان صفحه مورد نظر نمایش داده شود، چیزی ننویسید."
+
+#~ msgid "We show selected page as Link in footer after contact information."
+#~ msgstr "صفحات انتخاب شده در بخش پاورقی وب‌سایت نمایش داده خواهند شد."
+
+#~ msgid "Badges"
+#~ msgstr "نشان‌ها"
+
+#, fuzzy
+#~| msgid "Use as alt"
+#~ msgid "Use as logo alt."
+#~ msgstr "استفاده به عنوان توضیح تصویر"
+
+#~ msgid "Components"
+#~ msgstr "اجزاء"
+
+#~ msgid "View All"
+#~ msgstr "مشاهده همه"
+
+#~ msgid "Recent %s"
+#~ msgstr "آخرین %s"
+
+#~ msgid "Search in %s"
+#~ msgstr "جستجو در %s"
+
+#~ msgid "Tag Cloud"
+#~ msgstr "برچسب‌های منتخب"
+
+#, fuzzy
+#~| msgid "Tags"
+#~ msgid "Tags:"
+#~ msgstr "برچسب‌ها"
+
+#~ msgid "No Locations"
+#~ msgstr "بدون مکان"
+
+#~ msgid "Theme Location %s"
+#~ msgstr "مکان %s پوسته"
+
+#~ msgid "Field title"
+#~ msgstr "عنوان فیلد"
+
+#, fuzzy
+#~| msgid "Mailer Setting"
+#~ msgid "Profile editing"
+#~ msgstr "تنظیمات ارسال ایمیل"
+
+#, fuzzy
+#~| msgid "User"
+#~ msgid " Users"
+#~ msgstr "کاربر"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgid "Emails"
+#~ msgstr "ایمیل"
+
+#, fuzzy
+#~| msgid "Custom Name"
+#~ msgid "Custom fields"
+#~ msgstr "نام سفارشی"
+
+#~ msgid "Settings"
+#~ msgstr "تنظیمات"
+
+#~ msgid "View Profile"
+#~ msgstr "مشاهده پروفایل"
+
+#, fuzzy
+#~| msgid "Custom Posts"
+#~ msgid "Custom user avatar"
+#~ msgstr "نوشته‌های سفارشی"
+
+#, fuzzy
+#~| msgid "Select a user as manager"
+#~ msgid "Welcome to WP User Manager %s"
+#~ msgstr "انتخاب مدیر"
+
+#, fuzzy
+#~| msgid "Email Address"
+#~ msgid "Email address*"
+#~ msgstr "پست الکترونیکی"
+
+#~ msgid "Version %s"
+#~ msgstr "نسخه %s"
+
+#, fuzzy
+#~| msgid "Qualification Setting"
+#~ msgid "Setup notifications"
+#~ msgstr "تنظیمات مشخصه‌ها"
+
+#, fuzzy
+#~| msgid "Custom Posts"
+#~ msgid "Customize Profiles"
+#~ msgstr "نوشته‌های سفارشی"
+
+#, fuzzy
+#~| msgid "Custom Posts"
+#~ msgid "Customize profiles"
+#~ msgstr "نوشته‌های سفارشی"
+
+#, fuzzy
+#~| msgid "Cannot delete directory %s"
+#~ msgid "Create user directories"
+#~ msgstr "قادر به حذف دایرکتوری %s نیستیم"
+
+#~ msgid "Documentation"
+#~ msgstr "مستندات"
+
+#, fuzzy
+#~| msgid "Documentation"
+#~ msgid "Read documentation"
+#~ msgstr "مستندات"
+
+#~ msgctxt "all dropdown items"
+#~ msgid "All"
+#~ msgstr "همه"
+
+#~ msgctxt "no dropdown items"
+#~ msgid "None"
+#~ msgstr "هیچکدام"
+
+#~ msgid "Display to:"
+#~ msgstr "نمایش برای:"
+
+#, fuzzy
+#~| msgid "Select a post"
+#~ msgid "Select roles:"
+#~ msgstr "انتخاب یک نوشته"
+
+#, fuzzy
+#~| msgid "Mailer Setting"
+#~ msgid "User Manager Settings"
+#~ msgstr "تنظیمات ارسال ایمیل"
+
+#~ msgid "Profiles"
+#~ msgstr "پروفایل‌ها"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "Login Settings"
+#~ msgstr "تنظیمات"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "Misc Settings"
+#~ msgstr "تنظیمات"
+
+#, fuzzy
+#~| msgid "Administrator Panel"
+#~ msgid "Administration Notifications"
+#~ msgstr "بخش مدیریت سایت"
+
+#~ msgid "Profiles Content"
+#~ msgstr "محتوای پروفایل‌ها"
+
+#, fuzzy
+#~| msgid "Successfully update."
+#~ msgid "Settings successfully saved."
+#~ msgstr "با موفقیت به‌ روزرسانی شد."
+
+#, fuzzy
+#~| msgid "Select Type"
+#~ msgid "Select file"
+#~ msgstr "انتخاب نوع"
+
+#, fuzzy
+#~| msgctxt "Insert into Post"
+#~| msgid "Insert into %s"
+#~ msgid "Insert file"
+#~ msgstr "افزودن به %s"
+
+#, fuzzy
+#~| msgid "Please enter at least 5."
+#~ msgid "Press enter to select"
+#~ msgstr "لطفا بیش از ۱۵ کاراکتر وارد کنید."
+
+#, fuzzy
+#~| msgid "Select Type"
+#~ msgid "Selected"
+#~ msgstr "انتخاب نوع"
+
+#, fuzzy
+#~| msgid "Please enter the correct number."
+#~ msgid "Press enter to remove"
+#~ msgstr "عدد وارد شده صحیح نیست."
+
+#, fuzzy
+#~| msgid "Select a post"
+#~ msgid "Select option (type to search)"
+#~ msgstr "انتخاب یک نوشته"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Login Page"
+#~ msgstr "بخش نمایشی سایت"
+
+#, fuzzy
+#~| msgid "Administrator Panel"
+#~ msgid "Registration Page"
+#~ msgstr "بخش مدیریت سایت"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Account Page"
+#~ msgstr "بخش نمایشی سایت"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Profile Page"
+#~ msgstr "بخش نمایشی سایت"
+
+#, fuzzy
+#~| msgid "Select some users as partners"
+#~ msgid "Select one or more user roles from the list."
+#~ msgstr "انتخاب همکاران"
+
+#, fuzzy
+#~| msgid "Exclude"
+#~ msgid "Excluded Usernames"
+#~ msgstr "موارد استثنا"
+
+#, fuzzy
+#~| msgid "Enable Relation"
+#~ msgid "Enable Terms & Conditions"
+#~ msgstr "فعال سازی قابلیت رابطه"
+
+#, fuzzy
+#~| msgid "Terms Numbers"
+#~ msgid "Terms Page"
+#~ msgstr "اعداد ترم‌ها (عبارات)"
+
+#~ msgid "From Name"
+#~ msgstr "نام مبدأ ایمیل"
+
+#, fuzzy
+#~| msgid "No Emails"
+#~ msgid "From Email"
+#~ msgstr "ایمیلی وجود ندارد"
+
+#, fuzzy
+#~| msgid "Email username"
+#~ msgid "Email Template"
+#~ msgstr "نام کاربری ایمیل"
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid ""
+#~ "Enable this option to stop receiving notifications when a new user "
+#~ "registers."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid "Enable this option to allow guests to view users profiles."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#, fuzzy
+#~| msgid "Custom Posts"
+#~ msgid "Custom Avatars"
+#~ msgstr "نوشته‌های سفارشی"
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid ""
+#~ "Enable this option to prevent users from uploading a custom profile cover "
+#~ "image."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#, fuzzy
+#~| msgid "Reset Password"
+#~ msgid "Disable Strong Passwords"
+#~ msgstr "بازنشانی گذرواژه"
+
+#, fuzzy
+#~| msgid "Display settings"
+#~ msgid "Display Posts"
+#~ msgstr "تنظیمات نمایش"
+
+#, fuzzy
+#~| msgid "% Comments"
+#~ msgid "Display Comments"
+#~ msgstr "%s دیدگاه"
+
+#, fuzzy
+#~| msgid "Reset Password"
+#~ msgid "Require Current Password"
+#~ msgstr "بازنشانی گذرواژه"
+
+#, fuzzy
+#~| msgid "After noon"
+#~ msgid "After Login"
+#~ msgstr "بعد از ظهر"
+
+#, fuzzy
+#~| msgid "After noon"
+#~ msgid "After Logout"
+#~ msgstr "بعد از ظهر"
+
+#, fuzzy
+#~| msgid "After first heading"
+#~ msgid "After Registration"
+#~ msgstr "پس از اولین تیتر داخل متن"
+
+#, fuzzy
+#~| msgid "Register"
+#~ msgid "Backend Register"
+#~ msgstr "ریجیستر"
+
+#, fuzzy
+#~| msgid "Email password"
+#~ msgid "Backend lost password"
+#~ msgstr "گذرواژه ایمیل"
+
+#, fuzzy
+#~| msgid "You do not have sufficient permissions to access this page."
+#~ msgctxt "_doing_it_wrong error message"
+#~ msgid "You have no rights to access this page"
+#~ msgstr "شما دسترسی لازم برای مشاهده یا ویرایش این صفحه را ندارید."
+
+#, fuzzy
+#~| msgid "Register"
+#~ msgid "Registration"
+#~ msgstr "ریجیستر"
+
+#~ msgid "Login"
+#~ msgstr "ورود"
+
+#, fuzzy
+#~| msgid "Username or Email"
+#~ msgid "Username only"
+#~ msgstr "نام کاربری یا ایمیل"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgid "Email only"
+#~ msgstr "ایمیل"
+
+#~ msgid "Username or Email"
+#~ msgstr "نام کاربری یا ایمیل"
+
+#~ msgid "Notifications"
+#~ msgstr "اطلاع‌رسانی‌ها"
+
+#~ msgid "Read more"
+#~ msgstr "بیشتر بخوانید"
+
+#, fuzzy
+#~| msgid "Update %s"
+#~ msgid "Run Updates"
+#~ msgstr "به روز رسانی %s"
+
+#, fuzzy
+#~| msgid "Something wrong in delete cache process"
+#~ msgid "Something went wrong kindly try again!"
+#~ msgstr "اشکالی در فرایند حذف حافظه کش رخ داده است"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Directories"
+#~ msgstr "بخش نمایشی سایت"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Directory"
+#~ msgstr "بخش نمایشی سایت"
+
+#, fuzzy
+#~| msgid "Select a post"
+#~ msgid "Directory post type"
+#~ msgstr "انتخاب یک نوشته"
+
+#~ msgid "General Settings"
+#~ msgstr "تنظیمات عمومی"
+
+#~ msgid "User roles"
+#~ msgstr "نقش‌های کاربری"
+
+#, fuzzy
+#~| msgid "Display as dropdown"
+#~ msgid "Display search form"
+#~ msgstr "نمایش به‌عنوان فهرست بازشو"
+
+#, fuzzy
+#~| msgid "Exclude"
+#~ msgid "Include users"
+#~ msgstr "موارد استثنا"
+
+#, fuzzy
+#~| msgid "Exclude"
+#~ msgid "Exclude users"
+#~ msgstr "موارد استثنا"
+
+#, fuzzy
+#~| msgid "Setting"
+#~ msgid "Sorting"
+#~ msgstr "تنظیمات"
+
+#, fuzzy
+#~| msgid "Display as dropdown"
+#~ msgid "Display sorter"
+#~ msgstr "نمایش به‌عنوان فهرست بازشو"
+
+#, fuzzy
+#~| msgid "Display as dropdown"
+#~ msgid "Display amount filter"
+#~ msgstr "نمایش به‌عنوان فهرست بازشو"
+
+#, fuzzy
+#~| msgid "Custom Name"
+#~ msgid "Last Name"
+#~ msgstr "نام سفارشی"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Directory Template"
+#~ msgstr "بخش نمایشی سایت"
+
+#~ msgid "Template"
+#~ msgstr "تمپلیت"
+
+#~ msgid "All"
+#~ msgstr "همه"
+
+#~ msgid "Search form"
+#~ msgstr "فرم جستجو"
+
+#~ msgid "Shortcode"
+#~ msgstr "شورت‌کد"
+
+#, fuzzy
+#~| msgid "General Setting"
+#~ msgid "General settings"
+#~ msgstr "تنظیمات عمومی"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Directory template"
+#~ msgstr "بخش نمایشی سایت"
+
+#, fuzzy
+#~| msgid "%s updated"
+#~ msgid "%s directory updated."
+#~ msgid_plural "%s directory updated."
+#~ msgstr[0] "%s به روز شد"
+
+#, fuzzy
+#~| msgid "Default Name"
+#~ msgid "Default template"
+#~ msgstr "نام پیشفرض"
+
+#~ msgid "Previous page"
+#~ msgstr "صفحه قبلی"
+
+#, fuzzy
+#~| msgid "Next"
+#~ msgid "Next page"
+#~ msgstr "بعدی"
+
+#~ msgid "Default Template"
+#~ msgstr "تمپلیت پیشفرض"
+
+#~ msgid "Website URL"
+#~ msgstr "آدرس سایت"
+
+#~ msgid "User email"
+#~ msgstr "پست الکترونیکی کاربر"
+
+#, fuzzy
+#~| msgid "Email password"
+#~ msgid "Plain text password"
+#~ msgstr "گذرواژه ایمیل"
+
+#, fuzzy
+#~| msgid "Advanced settings"
+#~ msgid "Email content settings"
+#~ msgstr "تنظیمات پیشرفته"
+
+#~ msgid "Email subject"
+#~ msgstr "موضوع"
+
+#, fuzzy
+#~| msgid "Show heading text"
+#~ msgid "Email heading title"
+#~ msgstr "نمایش متن تیتر"
+
+#~ msgid "Email content"
+#~ msgstr "محتوای ایمیل"
+
+#, fuzzy
+#~| msgid "Username or Email"
+#~ msgid "WP User Manager Emails"
+#~ msgstr "نام کاربری یا ایمیل"
+
+#, fuzzy
+#~| msgid "Email Address"
+#~ msgid "Enter email address..."
+#~ msgstr "پست الکترونیکی"
+
+#, fuzzy
+#~| msgid "Custom"
+#~ msgid "Customize"
+#~ msgstr "سفارشی"
+
+#, fuzzy
+#~| msgid "Fake data generated successfully."
+#~ msgid "Test email successfully sent."
+#~ msgstr "داده‌های فیک با موفقیت ایجاد شدند."
+
+#, fuzzy
+#~| msgid "Session Duration"
+#~ msgid "Registration confirmation"
+#~ msgstr "مدت جلسه"
+
+#~ msgid "User's email."
+#~ msgstr "پست الکترونیکی کاربر."
+
+#, fuzzy
+#~| msgid "Cannot delete directory %s"
+#~ msgid "Can't get property %s"
+#~ msgstr "قادر به حذف دایرکتوری %s نیستیم"
+
+#, fuzzy
+#~| msgid "Reset Password"
+#~ msgid "User password"
+#~ msgstr "بازنشانی گذرواژه"
+
+#, fuzzy
+#~| msgid "Display as dropdown"
+#~ msgid "Display name"
+#~ msgstr "نمایش به‌عنوان فهرست بازشو"
+
+#, fuzzy
+#~| msgid "%s Image"
+#~ msgid "Cover Image"
+#~ msgstr "تصویر %s"
+
+#, fuzzy
+#~| msgid "Editor"
+#~ msgid "Fields Editor"
+#~ msgstr "ویرایشگر"
+
+#, fuzzy
+#~| msgid "Custom Name"
+#~ msgid "Custom Fields"
+#~ msgstr "نام سفارشی"
+
+#, fuzzy
+#~| msgid "Successfully update."
+#~ msgid "Changes successfully saved."
+#~ msgstr "با موفقیت به‌ روزرسانی شد."
+
+#, fuzzy
+#~| msgid "Card Description"
+#~ msgid "Group description"
+#~ msgstr "توضیحات کارت"
+
+#~ msgid "Default"
+#~ msgstr "پیشفرض"
+
+#~ msgid "Actions"
+#~ msgstr "عملیات"
+
+#, fuzzy
+#~| msgid "SEO settings"
+#~ msgid "Edit group settings"
+#~ msgstr "تنظیمات سئو"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Delete group"
+#~ msgstr "حذف"
+
+#, fuzzy
+#~| msgid "Save Changes"
+#~ msgid "Save changes"
+#~ msgstr "ذخیره تغییرات"
+
+#~ msgid "Editing:"
+#~ msgstr "ویرایش:"
+
+#, fuzzy
+#~| msgid "Enter a custom title"
+#~ msgid "Add new custom field"
+#~ msgstr "یک نام سفارشی وارد کنید"
+
+#, fuzzy
+#~| msgid "Enter a custom title"
+#~ msgid "Create custom field"
+#~ msgstr "یک نام سفارشی وارد کنید"
+
+#~ msgid "Privacy"
+#~ msgstr "حریم خصوصی"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Delete field"
+#~ msgstr "حذف"
+
+#~ msgid "Editable"
+#~ msgstr "قابل ویرایش"
+
+#, fuzzy
+#~| msgid "Display settings"
+#~ msgid "Privacy settings"
+#~ msgstr "تنظیمات نمایش"
+
+#, fuzzy
+#~| msgid "Something wrong in delete cache process"
+#~ msgid "Something went wrong, no changes were saved."
+#~ msgstr "اشکالی در فرایند حذف حافظه کش رخ داده است"
+
+#, fuzzy
+#~| msgid "Relations"
+#~ msgid "Field options"
+#~ msgstr "رابطه‌ها"
+
+#, fuzzy
+#~| msgid "Optional"
+#~ msgid "Option label"
+#~ msgstr "اختیاری"
+
+#, fuzzy
+#~| msgid "Optional"
+#~ msgid "Option value"
+#~ msgstr "اختیاری"
+
+#, fuzzy
+#~| msgid "Something is wrong in update process, please try later."
+#~ msgid "Something went wrong: could not update the groups order."
+#~ msgstr "اشکالی در فرایند به‌روزرسانی رخ داده است، لطفل دوباره امتحان کنید."
+
+#, fuzzy
+#~| msgid "Something wrong in delete cache process"
+#~ msgid "Something went wrong: could not update the group details."
+#~ msgstr "اشکالی در فرایند حذف حافظه کش رخ داده است"
+
+#, fuzzy
+#~| msgid "Something wrong in delete cache process"
+#~ msgid "Something went wrong while retrieving the list of fields."
+#~ msgstr "اشکالی در فرایند حذف حافظه کش رخ داده است"
+
+#, fuzzy
+#~| msgid "Something wrong in delete cache process"
+#~ msgid "Something went wrong: could not update the fields order."
+#~ msgstr "اشکالی در فرایند حذف حافظه کش رخ داده است"
+
+#, fuzzy
+#~| msgid "Qualification Setting"
+#~ msgid "Validation"
+#~ msgstr "تنظیمات مشخصه‌ها"
+
+#~ msgid "Permissions"
+#~ msgstr "درسترسی‌ها"
+
+#, fuzzy
+#~| msgid "Default Name"
+#~ msgid "Default Fields"
+#~ msgstr "نام پیشفرض"
+
+#, fuzzy
+#~| msgid "Advanced"
+#~ msgid "Advanced Fields"
+#~ msgstr "پیشرفته"
+
+#~ msgid "Yes"
+#~ msgstr "بلی"
+
+#~ msgid "File"
+#~ msgstr "قایل"
+
+#~ msgid "Multi Select"
+#~ msgstr "چند  انتخابی"
+
+#~ msgid "Number"
+#~ msgstr "عدد"
+
+#, fuzzy
+#~| msgid "Bidirectional button"
+#~ msgid "Radio buttons"
+#~ msgstr "دکمه های راست به چپ و چپ به راست"
+
+#, fuzzy
+#~| msgid "Text"
+#~ msgid "Textarea"
+#~ msgstr "متن"
+
+#~ msgid "URL"
+#~ msgstr "پیوند"
+
+#~ msgid "Login Details"
+#~ msgstr "جزئیات ورود"
+
+#~ msgid "Remember me"
+#~ msgstr "مرا به خاطر داشته باش"
+
+#, fuzzy
+#~| msgid "Email password"
+#~ msgid "Change password"
+#~ msgstr "گذرواژه ایمیل"
+
+#, fuzzy
+#~| msgid "Reset Password"
+#~ msgid "Repeat password"
+#~ msgstr "بازنشانی گذرواژه"
+
+#, fuzzy
+#~| msgid "Reset Password"
+#~ msgid "Current Password"
+#~ msgstr "بازنشانی گذرواژه"
+
+#, fuzzy
+#~| msgid "Your email client password."
+#~ msgid "Error: incorrect current password."
+#~ msgstr "گذرواژه ارسال کننده ایمیل."
+
+#, fuzzy
+#~| msgid "Reset Password"
+#~ msgid "Reset password"
+#~ msgstr "بازنشانی گذرواژه"
+
+#~ msgid "Username or email"
+#~ msgstr "نام کاربری یا ایمیل"
+
+#~ msgid "New password"
+#~ msgstr "گذرواژه جدید"
+
+#, fuzzy
+#~| msgid "Reset Password"
+#~ msgid "Re-enter new password"
+#~ msgstr "بازنشانی گذرواژه"
+
+#, fuzzy
+#~| msgid "Ops!!! Something is wrong."
+#~ msgid "Something went wrong."
+#~ msgstr "اوپس!!! اشکالی به وجود آمده است."
+
+#, fuzzy
+#~| msgid "Successfully deleted."
+#~ msgid "Password successfully reset."
+#~ msgstr "با موفقیت حذف شد."
+
+#, fuzzy
+#~| msgid "Display settings"
+#~ msgid "Profile settings"
+#~ msgstr "تنظیمات نمایش"
+
+#, fuzzy
+#~| msgid "Service Details"
+#~ msgid "Registration Details"
+#~ msgstr "جزئیات خدمت"
+
+#, fuzzy
+#~| msgid "Select Type"
+#~ msgid "Select Role"
+#~ msgstr "انتخاب نوع"
+
+#, fuzzy
+#~| msgid "Select some users as partners"
+#~ msgid "Select your user role"
+#~ msgstr "انتخاب همکاران"
+
+#, fuzzy
+#~| msgid "Custom Name"
+#~ msgid "Form Name"
+#~ msgstr "نام سفارشی"
+
+#, fuzzy
+#~| msgid "Add New %s"
+#~ msgid "Add New Form"
+#~ msgstr "افزودن %s جدید"
+
+#, fuzzy
+#~| msgid "Custom Name"
+#~ msgid "Edit Form Name"
+#~ msgstr "نام سفارشی"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Delete Form"
+#~ msgstr "حذف"
+
+#~ msgid "Customize Form"
+#~ msgstr "سفارشی سازی فرم"
+
+#~ msgid "Something went wrong no changes saved."
+#~ msgstr "مشکلی به وجود آمده است، تغییرات ذخیره نشد."
+
+#, fuzzy
+#~| msgid "Home"
+#~ msgid "Homepage"
+#~ msgstr "خانه"
+
+#, fuzzy
+#~| msgid "Display settings"
+#~ msgctxt "Permalink structure"
+#~ msgid "Display user ID"
+#~ msgstr "تنظیمات نمایش"
+
+#, fuzzy
+#~| msgid "Email username"
+#~ msgctxt "Permalink structure"
+#~ msgid "Display username"
+#~ msgstr "نام کاربری ایمیل"
+
+#, fuzzy
+#~| msgid "Email username"
+#~ msgctxt "Example of permalink setting"
+#~ msgid "username"
+#~ msgstr "نام کاربری ایمیل"
+
+#, fuzzy
+#~| msgid "Display settings"
+#~ msgctxt "Permalink structure"
+#~ msgid "Display nickname"
+#~ msgstr "تنظیمات نمایش"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgid "E-mail: %s"
+#~ msgstr "ایمیل"
+
+#~ msgid "Password Reset"
+#~ msgstr "بازنشانی گذرواژه"
+
+#~ msgid "Register"
+#~ msgstr "ریجیستر"
+
+#, fuzzy
+#~| msgid "Default Description"
+#~ msgid "Default registration form"
+#~ msgstr "شرح پیشفرض"
+
+#~ msgid "Local"
+#~ msgstr "محلی"
+
+#~ msgid "You have hidden all of the fields for this block."
+#~ msgstr "شما کلیه فیلدها را برای این بلوک مخفی کرده‌اید."
+
+#~ msgid "Show more"
+#~ msgstr "نمایش موارد بیشتر"
+
+#~ msgctxt "Add New Post"
+#~ msgid "Add New %s"
+#~ msgstr "افزودن %s جدید"
+
+#~ msgctxt "All Posts"
+#~ msgid "All %s"
+#~ msgstr "همه %s"
+
+#~ msgctxt "Post Archives"
+#~ msgid "%s Archives"
+#~ msgstr "آرشیو %s"
+
+#~ msgctxt "Edit Post"
+#~ msgid "Edit %s"
+#~ msgstr "ویرایش %s"
+
+#~ msgctxt "Insert into Post"
+#~ msgid "Insert into %s"
+#~ msgstr "افزودن به %s"
+
+#~ msgctxt "New Post"
+#~ msgid "New %s"
+#~ msgstr "افزودن %s"
+
+#~ msgctxt "No Posts found"
+#~ msgid "No %s found"
+#~ msgstr "%s یافت نشد"
+
+#~ msgctxt "No Posts found in Trash"
+#~ msgid "No %s found in Trash"
+#~ msgstr "%s در زباله‌دان یافت نشد"
+
+#~ msgctxt "Search Posts"
+#~ msgid "Search %s"
+#~ msgstr "جستجوی %s"
+
+#~ msgctxt "View Post"
+#~ msgid "View %s"
+#~ msgstr "مشاهده %s"
+
+#~ msgid "%s Review"
+#~ msgid_plural "%s Reviews"
+#~ msgstr[0] "%s بررسی"
+
+#~ msgid "Recent Reviews"
+#~ msgstr "بررسی‌های اخیر"
+
+#~ msgid "Submit a Review"
+#~ msgstr "ثبت یک بررسی"
+
+#~ msgid "All types"
+#~ msgstr "همه انواع"
+
+#~ msgid "Reviews"
+#~ msgstr "بررسی‌ها"
+
+#~ msgid "Review"
+#~ msgstr "بررسی"
+
+#~ msgid "Add-ons"
+#~ msgstr "افزودنی‌ها"
+
+#~ msgid "Support"
+#~ msgstr "پشتیبانی"
+
+#~ msgid "Addons"
+#~ msgstr "افزونه‌‌ها"
+
+#~ msgid "System Info"
+#~ msgstr "اطلاعات سیستمی"
+
+#~ msgid "Filter by category"
+#~ msgstr "فیلترکردن به واسطه دسته"
+
+#~ msgid "Next &rarr;"
+#~ msgstr "بعدی &rarr;"
+
+#~ msgid "%s second ago"
+#~ msgid_plural "%s seconds ago"
+#~ msgstr[0] "%s ثانیه پیش"
+
+#~ msgid "%s minute ago"
+#~ msgid_plural "%s minutes ago"
+#~ msgstr[0] "%s دقیقه پیش"
+
+#~ msgid "an hour ago"
+#~ msgid_plural "%s hours ago"
+#~ msgstr[0] "%s ساعت پیش"
+
+#~ msgid "a week ago"
+#~ msgid_plural "%s weeks ago"
+#~ msgstr[0] "%s هفته پیش"
+
+#~ msgid "%s month ago"
+#~ msgid_plural "%s months ago"
+#~ msgstr[0] "%s ماه پیش"
+
+#~ msgid "%s year ago"
+#~ msgid_plural "%s years ago"
+#~ msgstr[0] "%s سال پیش"
+
+#~ msgid "Select a Rating"
+#~ msgstr "یک امتیاز انتخاب کنید"
+
+#~ msgid "Disable"
+#~ msgstr "غیرفعال"
+
+#~ msgid "- Select -"
+#~ msgstr "- انتخاب کنید -"
+
+#~ msgid "Product"
+#~ msgstr "محصول"
+
+#~ msgid "Default Name"
+#~ msgstr "نام پیشفرض"
+
+#~ msgid "Enter a custom title"
+#~ msgstr "یک نام سفارشی وارد کنید"
+
+#~ msgid "Custom Name"
+#~ msgstr "نام سفارشی"
+
+#~ msgid "Default Description"
+#~ msgstr "شرح پیشفرض"
+
+#~ msgid "Default URL"
+#~ msgstr "پیوند پیشفرض"
+
+#~ msgid "Please wait..."
+#~ msgstr "لطفا کمی صبر کنید..."
+
+#~ msgid "More Info"
+#~ msgstr "اطلاعات بیشتر"
+
+#~ msgid "OK"
+#~ msgstr "باشه"
+
+#~ msgid "Show custom translation"
+#~ msgstr "نمایش ترجمه سفارشی"
+
+#~ msgid "Delete"
+#~ msgstr "حذف"
+
+#~ msgid "Session Duration"
+#~ msgstr "مدت جلسه"
+
+#~ msgid "Minutes"
+#~ msgstr "دقیقه"
+
+#, fuzzy
+#~| msgid "Service Details"
+#~ msgid "Product Details"
+#~ msgstr "جزئیات خدمت"
+
+#, fuzzy
+#~| msgid "Exclude"
+#~ msgid "Exclude Filters"
+#~ msgstr "موارد استثنا"
+
+#, fuzzy
+#~| msgid "Search %s"
+#~ msgid "each %s days"
+#~ msgstr "جستجوی %s"
+
+#, fuzzy
+#~| msgid "Enable Mailer"
+#~ msgid "Enable %s filter."
+#~ msgstr "فعال سازی ارسال ایمیل"
+
+#, fuzzy
+#~| msgid "Select Type"
+#~ msgid "Filter Type"
+#~ msgstr "انتخاب نوع"
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid "Check this item for better performance."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#, fuzzy
+#~| msgid "Sort order."
+#~ msgid "Sort terms"
+#~ msgstr "ترتیب مرتب‌سازی."
+
+#, fuzzy
+#~| msgid "Sort order."
+#~ msgid "Sort order"
+#~ msgstr "ترتیب مرتب‌سازی."
+
+#, fuzzy
+#~| msgid "See all"
+#~ msgid "See all items"
+#~ msgstr "مشاهده‌ همه"
+
+#, fuzzy
+#~| msgid "Filter by category"
+#~ msgid "Filter items by price."
+#~ msgstr "فیلترکردن به واسطه دسته"
+
+#, fuzzy
+#~| msgid "Filter %s list"
+#~ msgid "Filter Price"
+#~ msgstr "فیلتر لیست %s"
+
+#, fuzzy
+#~| msgid "Title"
+#~ msgid "Title text"
+#~ msgstr "عنوان"
+
+#, fuzzy
+#~| msgid "Rating"
+#~ msgid "By Rating"
+#~ msgstr "امتیاز"
+
+#, fuzzy
+#~| msgid "Filter %s list"
+#~ msgid "Filter"
+#~ msgstr "فیلتر لیست %s"
+
+#, fuzzy
+#~| msgid "Schema App Structured Data"
+#~ msgid "Structure"
+#~ msgstr "طرح کلی برنامه ساختار داده"
+
+#, fuzzy
+#~| msgid "Submit"
+#~ msgid "Auto Submit"
+#~ msgstr "تایید"
+
+#, fuzzy
+#~| msgid "%s Items"
+#~ msgid "Collapse Items"
+#~ msgstr "آیتم‌های %s"
+
+#, fuzzy
+#~| msgid "Filter by category"
+#~ msgid "Filter button text"
+#~ msgstr "فیلترکردن به واسطه دسته"
+
+#, fuzzy
+#~| msgid "Convert price of products in woocomerce bundle."
+#~ msgid "Override no products found content"
+#~ msgstr "تبدیل قیمت محصولات در افزونه ووکامرس."
+
+#, fuzzy
+#~| msgid "Cache"
+#~ msgid "Caches"
+#~ msgstr "کش"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Reset Filters"
+#~ msgstr "حذف"
+
+#~ msgid "In Category:"
+#~ msgstr "در دسته:"
+
+#, fuzzy
+#~| msgid "Ops!!! Something is wrong."
+#~ msgid "Something is Wrong."
+#~ msgstr "اوپس!!! اشکالی به وجود آمده است."
+
+#~ msgid "Product not found."
+#~ msgstr "محصولی یافت نشد."
+
+#, fuzzy
+#~| msgid "%s Results"
+#~ msgid "%s Reviews"
+#~ msgstr "%s نتیجه"
+
+#, fuzzy
+#~| msgid "Attribute Setting"
+#~ msgid "Attributes tab title"
+#~ msgstr "تنظیمات ویژگی‌"
+
+#, fuzzy
+#~| msgid "Contact Information"
+#~ msgid "Additional Information"
+#~ msgstr "اطلاعات تماس"
+
+#~ msgid "%s Item"
+#~ msgstr "آیتم‌ %s"
+
+#~ msgid "Sort options"
+#~ msgstr "گزینه‌های مرتب سازی"
+
+#~ msgid "Newest"
+#~ msgstr "جدیدترین"
+
+#~ msgid "Lowest Price"
+#~ msgstr "پایین‌ترین قیمت"
+
+#~ msgid "Highest Price"
+#~ msgstr "بالاترین قیمت"
+
+#~ msgid "Sort by: "
+#~ msgstr "مرتب‌سازی بر اساس:"
+
+#~ msgid "&laquo; Previous"
+#~ msgstr "&laquo; قبلی"
+
+#~ msgid "Next &raquo;"
+#~ msgstr "بعدی &raquo;"
+
+#, fuzzy
+#~| msgid "Sun"
+#~ msgid "Sku"
+#~ msgstr "ی"
+
+#~ msgid "Weight"
+#~ msgstr "وزن"
+
+#~ msgid "Dimensions"
+#~ msgstr "ابعاد"
+
+#, fuzzy
+#~| msgid "Number of Woocommerce Price"
+#~ msgid "Woocommerce Price"
+#~ msgstr "عدد قیمت محصولات ووکامرس"
+
+#, fuzzy
+#~| msgid "Convert price of products in woocomerce bundle."
+#~ msgid "Convert price of products in woocommerce."
+#~ msgstr "تبدیل قیمت محصولات در افزونه ووکامرس."
+
+#~ msgid "Close -"
+#~ msgstr "بستن -"
+
+#~ msgid "Clicking on any title will take you to that section"
+#~ msgstr " با کلیک روی هر عنوان به آن قسمت منتقل می شوید"
+
+#~ msgid "show/hide"
+#~ msgstr "نمایش / مخفی"
+
+#~ msgid "Sale count:"
+#~ msgstr "تعداد فروش: "
+
+#, fuzzy
+#~| msgid "Boilerplate"
+#~ msgid "Boilerplate"
+#~ msgstr "الزامات اولیه"
+
+#~ msgid "https://pmpr.ir"
+#~ msgstr "‏https://pmpr.ir"
+
+#~ msgid "Boilerplate plugin for every wordpress website"
+#~ msgstr "افزونه الزامات اولیه"
+
+#~ msgid "Farshad Asgharzade"
+#~ msgstr "فرشاد اصغرزاده"
+
+#, fuzzy
+#~| msgid "Please enter at least 5."
+#~ msgid "Please select a rating"
+#~ msgstr "لطفا بیش از ۱۵ کاراکتر وارد کنید."
+
+#~ msgid "optional"
+#~ msgstr "اختیاری"
+
+#, fuzzy
+#~| msgid "View %s"
+#~ msgid "View cart"
+#~ msgstr "مشاهده %s"
+
+#, fuzzy
+#~| msgid "Select a post"
+#~ msgid "Select an option&hellip;"
+#~ msgstr "انتخاب یک نوشته"
+
+#, fuzzy
+#~| msgctxt "No Posts found"
+#~| msgid "No %s found"
+#~ msgctxt "enhanced select"
+#~ msgid "No matches found"
+#~ msgstr "%s یافت نشد"
+
+#, fuzzy
+#~| msgid "Please enter at least 5 characters."
+#~ msgctxt "enhanced select"
+#~ msgid "Please enter 1 or more characters"
+#~ msgstr "لطفا بیش از ۵ کاراکتر وارد کنید."
+
+#, fuzzy
+#~| msgid "Please enter at least 5 characters."
+#~ msgctxt "enhanced select"
+#~ msgid "Please enter %qty% or more characters"
+#~ msgstr "لطفا بیش از ۵ کاراکتر وارد کنید."
+
+#, fuzzy
+#~| msgid "Please enter at least 15 characters."
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete 1 character"
+#~ msgstr "لطفا بیش از ۱۵ کاراکتر وارد کنید."
+
+#, fuzzy
+#~| msgid "Please enter at least 5 characters."
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete %qty% characters"
+#~ msgstr "لطفا بیش از ۵ کاراکتر وارد کنید."
+
+#, fuzzy
+#~| msgid "Please enter at least 5."
+#~ msgid "Please enter a stronger password."
+#~ msgstr "لطفا بیش از ۱۵ کاراکتر وارد کنید."
+
+#~ msgid "Table View"
+#~ msgstr "نمایش جدولی"
+
+#~ msgid ""
+#~ "Image width is too small. Minimum width is %1$s px. Uploaded image width "
+#~ "is %2$s px"
+#~ msgstr ""
+#~ "ابعاد عکس کوچک است. عرض عکس باید حداقل %1$s پیکسل باشد ولی عرض عکس انتخابی "
+#~ "شما %2$s پیکسل است"
+
+#~ msgid ""
+#~ "Image height is too small. Minimum height is %1$s px. Uploaded image "
+#~ "height is %2$s px"
+#~ msgstr ""
+#~ "ابعاد عکس کوچک است. ارتفاع عکس باید حداقل %1$s پیکسل باشد ولی ارتفاع عکس "
+#~ "انتخابی شما %2$s پیکسل است"
+
+#~ msgid "Image minimum width"
+#~ msgstr "حداقل عرض تصاویر"
+
+#~ msgid "Pixel"
+#~ msgstr "پیکسل"
+
+#~ msgid "Image minimum height"
+#~ msgstr "حداقل ارتفاع تصاویر"
+
+#, fuzzy
+#~| msgid "Optimization config file %s generated in %s"
+#~ msgid "Optimization completed for %s."
+#~ msgstr "فایل پیکربندی %s در %s ایجاد شد"
+
+#~ msgid "Number of Comments"
+#~ msgstr "تعداد دیدگاه‌ها"
+
+#~ msgid "Convert count number."
+#~ msgstr "تبدیل عدد تعداد."
+
+#~ msgid "Calendar"
+#~ msgstr "تقویم"
+
+#~ msgid "Enable Date Picker Calendar"
+#~ msgstr "تقویم کشویی فعال باشد"
+
+#~ msgid "Bidirectional button"
+#~ msgstr "دکمه های راست به چپ و چپ به راست"
+
+#~ msgid "Use Bidirectional button in visual editor"
+#~ msgstr "فعال سازی دکمه های راست به چپ و چپ به راست در ویرایشگر"
+
+#~ msgid "RTL style"
+#~ msgstr "استایل راست به چپ"
+
+#~ msgid "Use RTL style for visual editor"
+#~ msgstr "استفاده از استایل راست به چپ برای ویرایشگر"
+
+#~ msgid "Enable Virastar for"
+#~ msgstr "فعال‌سازی ویراستار برای"
+
+#~ msgid "Editor"
+#~ msgstr "ویرایشگر"
+
+#~ msgid "Main Font"
+#~ msgstr "ونت اصلی"
+
+#~ msgid "Header Font"
+#~ msgstr "فونت تیترها"
+
+#~ msgid "As header font"
+#~ msgstr "استفاده به عنوان فونت تیترها"
+
+#~ msgid "Navigation Font"
+#~ msgstr "فونت منو"
+
+#~ msgid "Fonts"
+#~ msgstr "فونت‌ها"
+
+#~ msgid "Page Title Numbers"
+#~ msgstr "اعداد عنوان صفحه"
+
+#~ msgid "Change numbers to Farsi in Page Title"
+#~ msgstr "تغییر عددها به فارسی در عنوان صفحه"
+
+#~ msgid "Post Title Numbers"
+#~ msgstr "اعداد عنوان نوشته"
+
+#~ msgid "Change numbers to Farsi in Post Title"
+#~ msgstr "تغییر  عددها به فارسی در عنوان نوشته‌ها"
+
+#~ msgid "Post Excerpt Numbers"
+#~ msgstr "اعداد خلاصه نوشته"
+
+#~ msgid "Change numbers to Farsi in Post excerpt"
+#~ msgstr "تغییر عددها به فارسی در خلاصه نوشته‌ها"
+
+#~ msgid "Post Content Numbers"
+#~ msgstr "اعداد متن نوشته"
+
+#~ msgid "Change numbers to Farsi in Post Content"
+#~ msgstr "تغییر عددها به فارسی در متن نوشته‌ها"
+
+#~ msgid "Comment Text Numbers"
+#~ msgstr "اعداد محتوای دیدگاه"
+
+#~ msgid "Change numbers to Farsi in Comments"
+#~ msgstr "تغییر عددها به فارسی در دیدگاه‌ها"
+
+#~ msgid "Comment Count Numbers"
+#~ msgstr "اعداد تعداد دیدگاه"
+
+#~ msgid "Change numbers to Farsi in Comments count"
+#~ msgstr "تغییر  شمارشگر دیدگاه‌ها، به فارسی"
+
+#~ msgid "Categories Numbers"
+#~ msgstr "اعداد دسته‌بندی‌"
+
+#~ msgid "Change numbers to Farsi in Categories"
+#~ msgstr "تغییر عددها به فارسی در دسته‌ها"
+
+#~ msgid "Terms Numbers"
+#~ msgstr "اعداد ترم‌ها (عبارات)"
+
+#~ msgid "Change numbers to Farsi in Terms"
+#~ msgstr "تغییر عددها به فارسی در ترم‌ها"
+
+#~ msgid "Dates Numbers"
+#~ msgstr "عدد تاریخ‌ها"
+
+#~ msgid "Change numbers to Farsi in Dates"
+#~ msgstr "تغییر عددها به فارسی در تاریخ"
+
+#~ msgid "Other Numbers"
+#~ msgstr "دیگر اعداد"
+
+#~ msgid "Change other numbers to Farsi"
+#~ msgstr "تغییر سایر عددها به فارسی"
+
+#~ msgid "This  Segment language"
+#~ msgstr "زبان این بخش از سایت"
+
+#~ msgid "Post in blog"
+#~ msgstr "نوشته در وبلاگ"
+
+#~ msgid "Comments on posts"
+#~ msgstr "دیدگاه پیرامون نوشته‌ها"
+
+#, fuzzy
+#~| msgid "Link of %s"
+#~ msgid "%s of %s%s"
+#~ msgstr "پیوند %s"
+
+#~ msgid "Popular Posts"
+#~ msgstr "نوشته‌های محبوب"
+
+#, fuzzy
+#~| msgid "Information"
+#~ msgid "Author information"
+#~ msgstr "اطلاعات"
+
+#, fuzzy
+#~| msgid "Information"
+#~ msgid "Show author information in blog"
+#~ msgstr "اطلاعات"
+
+#~ msgid "Select a image as placeholder."
+#~ msgstr "انتخاب یک تصویر به عنوان تصویر پیشفرض."
+
+#~ msgid "Basic"
+#~ msgstr "پایه"
+
+#~ msgid "result is empty"
+#~ msgstr "خروجی خالی"
+
+#~ msgid "Leave a Comment"
+#~ msgstr "ارسال دیدگاه"
+
+#~ msgid "What is wrong? can you tell us to improve ourself."
+#~ msgstr "مشکل کجاست؟ می‌تونید برای بهبود ما بهمون کمک کنید"
+
+#~ msgid "Click on stars to record your rate."
+#~ msgstr "روی ستاره ها کلیک کنید تا امتیاز شما ثبت شود."
+
+#~ msgid "Total Time: %s"
+#~ msgstr "زمان:‌ %s"
+
+#, fuzzy
+#~| msgid "IP: %s"
+#~ msgid "Price: %s"
+#~ msgstr "آی پی:‌ %s"
+
+#, fuzzy
+#~| msgid "Hour"
+#~ msgid "Hours"
+#~ msgstr "ساعت"
+
+#~ msgid "Days"
+#~ msgstr "روز‌"
+
+#~ msgid "Above the fold"
+#~ msgstr "نمایش بالای صفحه"
+
+#~ msgid "Enable CDN Support"
+#~ msgstr "پشتیبانی CDN را فعال کنید"
+
+#~ msgid "Site URL"
+#~ msgstr "آدرس سایت"
+
+#~ msgid "Update Status"
+#~ msgstr "به روز رسانی وضعیت‌ها"
+
+#~ msgid "FAILED"
+#~ msgstr "شکست"
+
+#~ msgid "<strong>Errors:</strong> %s"
+#~ msgstr "<strong>خطاها:</strong> %s"
+
+#~ msgid "Page %d: %d (%s)"
+#~ msgstr "صفحه %d: %d (%s)"
+
+#~ msgid "Page 1: %s"
+#~ msgstr "صفحه ۱: %s"
+
+#~ msgid "Page 2: %s"
+#~ msgstr "صفحه ۲: %s"
+
+#~ msgid "Delete Cache"
+#~ msgstr "پاک کردن کش"
+
+#~ msgid ""
+#~ "Comment moderation is enabled. Your comment may take some time to appear."
+#~ msgstr "تائید دیدگاه فعال است. دیدگاه شما ممکن است کمی طول بکشد تا ظاهر شود."
+
+#~ msgid "Log File Deleted Successfully"
+#~ msgstr "فایل لاگ با موفقیت حذف شد"
+
+#~ msgid "Something wrong in delete cache log file process"
+#~ msgstr "اشکالی در فرایند حذف فایل لاگ کش رخ داده است"
+
+#~ msgid "Something wrong in delete expired cache process"
+#~ msgstr "اشکالی در فرایند حذف حافظه کش منقضی شده، رخ داده است"
+
+#~ msgid "Something wrong in delete cache process"
+#~ msgstr "اشکالی در فرایند حذف حافظه کش رخ داده است"
+
+#~ msgid "%s Cached Pages"
+#~ msgstr "%s برگه های کش شده"
+
+#~ msgid "%s %s Files"
+#~ msgstr "پرونده های %s %s"
+
+#~ msgid "URI"
+#~ msgstr "آدرس"
+
+#~ msgid "Age"
+#~ msgstr "سن"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Front page checks"
+#~ msgstr "بخش نمایشی سایت"
+
+#, fuzzy
+#~| msgid "Disable Subject"
+#~ msgid "Disable Mutex"
+#~ msgstr "غیر فعال کردن موضوع"
+
+#~ msgid "Cache Location"
+#~ msgstr "مکان کش"
+
+#, fuzzy
+#~| msgid "Writing Correction"
+#~ msgid "Garbage Collection"
+#~ msgstr "اصلاح نگارشی"
+
+#, fuzzy
+#~| msgid "Enable Contact"
+#~ msgid "Enable Lock Down"
+#~ msgstr "فعال سازی ارتباط با ما"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Direct Page"
+#~ msgstr "بخش نمایشی سایت"
+
+#~ msgid "or"
+#~ msgstr "یا"
+
+#~ msgid "Single Posts"
+#~ msgstr "صفحه سینگل نوشته‌ها"
+
+#~ msgid "Home"
+#~ msgstr "خانه"
+
+#~ msgid "Archives"
+#~ msgstr "بایگانی‌ها"
+
+#~ msgid "Categories"
+#~ msgstr "دسته‌بندی‌ها"
+
+#~ msgid "Enable Debug"
+#~ msgstr "فعال حالت دیباگ"
+
+#~ msgid "Check this item to enable logger functionality in cache"
+#~ msgstr "با علامت زدن این گزینه، عمکرد لاگ در کش فعال می‌شود"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Front page text"
+#~ msgstr "بخش نمایشی سایت"
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid "Check this item to turn on caching (Recommended)."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#~ msgid "No Emails"
+#~ msgstr "ایمیلی وجود ندارد"
+
+#~ msgid "Advance"
+#~ msgstr "پیشرفته"
+
+#~ msgid "Debug"
+#~ msgstr "اشکال زدایی"
+
+#, fuzzy
+#~| msgid "Enable Compressor"
+#~ msgid "Compressor"
+#~ msgstr "فعال‌سازی فشرده ساز"
+
+#~ msgid "Enable Compressor"
+#~ msgstr "فعال‌سازی فشرده ساز"
+
+#~ msgid "Check this item to enable html compressor functionality."
+#~ msgstr "برای فعال سازی عملکرد فشرده ساز html، این گزینه را علامت بزنید."
+
+#~ msgid "Compress HTML"
+#~ msgstr "فشرده سازی HTML"
+
+#~ msgid "Compress CSS"
+#~ msgstr "فشرده سازی CSS"
+
+#~ msgid "Compress JavaScript"
+#~ msgstr "فشرده سازی Javascript"
+
+#~ msgid "Enter number %s"
+#~ msgstr "عدد %s را وارد کنید"
+
+#~ msgid "Error! Could not send form. This might be a server issue."
+#~ msgstr ""
+#~ "خطا! قادر به ارسال اطلاعات نیستیم. ممکن است مشکلی در سرور به وجود آمده "
+#~ "باشد."
+
+#~ msgid "Please enter the correct number."
+#~ msgstr "عدد وارد شده صحیح نیست."
+
+#, fuzzy
+#~| msgid "Check this item to enable mailer functionality."
+#~ msgid "Check this item to disable subject field in form."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
+
+#~ msgid "Labels"
+#~ msgstr "برچسب‌ها"
+
+#~ msgid "Email username"
+#~ msgstr "نام کاربری ایمیل"
+
+#~ msgid "Your email client username."
+#~ msgstr "نام کاربری ارسال کننده ایمیل."
+
+#~ msgid "Email password"
+#~ msgstr "گذرواژه ایمیل"
+
+#, fuzzy
+#~| msgid "Posts navigation"
+#~ msgid "Post date validation"
+#~ msgstr "ناوربری نوشته‌ها"
+
+#, fuzzy
+#~| msgid "Error"
+#~ msgid "Error:"
+#~ msgstr "خطا"
+
+#, fuzzy
+#~| msgid "Enable"
+#~ msgid "Enable reCAPTCHA v3"
+#~ msgstr "فعال"
+
+#, fuzzy
+#~| msgid "Slider"
+#~ msgid "Sidebar Slider"
+#~ msgstr "اسلایدر"
+
+#, fuzzy
+#~| msgid "Priority"
+#~ msgid "Relation Origin"
+#~ msgstr "اولویت"
+
+#~ msgid "Not found any result"
+#~ msgstr "چیزی پیدا نشد"
+
+#, fuzzy
+#~| msgid "Please enter a valid email."
+#~ msgid "Save my name and email."
+#~ msgstr "لطفا یک آدرس ایمیل معتبر وارد کنید."
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Directory updated."
+#~ msgstr "بخش نمایشی سایت"
+
+#, fuzzy
+#~| msgid "Front Page"
+#~ msgid "Directory saved."
+#~ msgstr "بخش نمایشی سایت"
+
+#~ msgid "Back to %s"
+#~ msgstr "بازگشت به %s"
+
+#~ msgid "Mobile"
+#~ msgstr "موبایل"
+
+#~ msgid "%s hour ago"
+#~ msgid_plural "%s hours ago"
+#~ msgstr[0] "%s ساعت پیش"
+
+#~ msgid "%s day ago"
+#~ msgid_plural "%s days ago"
+#~ msgstr[0] "%s روز پیش"
+
+#~ msgid "Senior Consultant Rating 3 of the computer system"
+#~ msgstr "مشاور ارشد رتبه ۳ سازمان نظام رایانه‌ای"
+
+#~ msgid "now"
+#~ msgstr "کمتر از یک دقیقه پیش"
+
+#~ msgid "%s minutes ago"
+#~ msgstr "%s دقیقه پیش"
+
+#~ msgid "The page you requested was not found."
+#~ msgstr "صفحه درخواستی شما وجود ندارد."
+
+#~ msgid "Back to blog."
+#~ msgstr "بازگشت به وبلاگ."
+
+#~ msgid "No posts yet!"
+#~ msgstr "هنوز نوشته‌ای وجود ندارد!"
+
+#~ msgid "1 Comment"
+#~ msgstr "۱ دیدگاه"
+
+#~ msgid "Pages:"
+#~ msgstr "برگه‌ها:"
+
+#~ msgid "Sticky"
+#~ msgstr "چسبان (نیازمند فعال سازی ابزارک)"
+
+#~ msgid "Position"
+#~ msgstr "موقعیت"
+
+#~ msgid "Choose post types"
+#~ msgstr "انتخاب انواع نوشته"
+
+#~ msgid "Heading text"
+#~ msgstr "متن تیتر"
+
+#~ msgid "Smooth scroll"
+#~ msgstr "اسکرال آهسته و نرم"
+
+#~ msgid "Smooth scroll offset"
+#~ msgstr "آفست برای اسکرال نرم"
+
+#~ msgid "Exclude"
+#~ msgstr "موارد استثنا"
+
+#~ msgid "Restrict path"
+#~ msgstr "مسیرهای محدود شده"
+
+#~ msgid "Default anchor prefix"
+#~ msgstr "پیشوند پیشفرض برای لینک"
+
+#~ msgid "Position in which the table of content will appear inside the page"
+#~ msgstr "موقعیت قرارگیری فهرست مطالب در صفحه"
+
+#~ msgid "Minimum required heading count for table of content to be displayed"
+#~ msgstr "حداقل تعداد تیتر لازم برای نمایش فهرست مطالب"
+
+#~ msgid "Automatically show table of content fo these post types"
+#~ msgstr "نمایش فهرست مطالب برای این نوع نوشته‌ها"
+
+#~ msgid "Whether to show heading text for table of content or not"
+#~ msgstr "آیا عنوانی برای فهرست مطالب نمایش داده شود یا خیر"
+
+#~ msgid "The heading text for table of content"
+#~ msgstr "عنوان برای فهرست مطالب"
+
+#~ msgid "Table of Contents"
+#~ msgstr "فهرست مطالب"
+
+#~ msgid "Whether to show hierarchy or not"
+#~ msgstr "آیا تیترها به صورت سلسله مراتبی نمایش داده شوند یا خیر"
+
+#~ msgid "Scroll rather than to jump to heading anchor link"
+#~ msgstr "آیا پیمایش به تیتر به آرامی صورت گیرد یا به صورت یکباره"
+
+#~ msgid "Offset value for smooth scroll in px"
+#~ msgstr "مقدار آفست بر حسب پیکسل برای پیمایش آهسته و نرم به تیتر مقصد"
+
+#~ msgid "Whether to display table of content inside homepage or not"
+#~ msgstr "آیا فهرست مطالب در صفحه اصلی هم نمایش داده شود یا خیر"
+
+#~ msgid "Whether to output an numbered list or not"
+#~ msgstr "آیا لیست به صورت شماره زنی درج شود یا بدون شماره"
+
+#~ msgid "Heading levels to include inside table of content"
+#~ msgstr "میزان عمق نمایش داده شده از تیترها در فهرست مطالب"
+
+#~ msgid ""
+#~ "Specify headings to be excluded from appearing in the table of contents.\n"
+#~ "\n"
+#~ "                Separate multiple headings with a pipe |. Use an asterisk "
+#~ "* as a wildcard to match other text.\n"
+#~ "\n"
+#~ "                Note that this is not case sensitive."
+#~ msgstr ""
+#~ "تیترهایی که نمی‌خواهید در فهرست مطالب درج شوند را مستثنی کنید\n"
+#~ "‏\n"
+#~ "\t\t\tتیترهای متعدد را با یک کاراکتر پایپ | از هم جدا کنید. از کاراکتر "
+#~ "ستاره * به منظور تطبیق کاراکتر دلخواه استفاده کنید\n"
+#~ "‏\n"
+#~ "\t\t\tتوجه کنید که حساسیتی نسبت به بزرگی و کوچکی کاراکترها وجود ندارد."
+
+#~ msgid ""
+#~ "Restrict generation of the table of contents to pages that match the "
+#~ "required path.\n"
+#~ "\n"
+#~ "                This path is from the root of your site and always begins "
+#~ "with a forward slash."
+#~ msgstr ""
+#~ "ایجاد فهرست مطالب را محدود به صفحاتی با مسیر زیر کنید آدرس این مسیر نسبت "
+#~ "به مسیر اصلی سایت است و همیشه با یک کاراکتر اسلش ‪/‬ در ابتدا شروع می‌شود."
+
+#~ msgid ""
+#~ "Anchor targets are restricted to alphanumeric characters as per HTML "
+#~ "specification (see readme for more detail).\n"
+#~ "\n"
+#~ "                The default anchor prefix will be used when no characters "
+#~ "qualify. When left blank, a number will be used instead.\n"
+#~ "\n"
+#~ "                This option normally applies to content written in "
+#~ "character sets other than ASCII."
+#~ msgstr ""
+#~ "با توجه به استاندارد HTML لینک مقصد محدود به کاراکترهای انگلیسی حرف یا عدد "
+#~ "است‪.‬\n"
+#~ "\n"
+#~ "\t\tاگر پس از فیلتر فوق کاراکتری باقی نماند از «پیشوند پیشفرض برای لینک» "
+#~ "استفاده می‌شود. اگر خالی رها کنید از یک عدد ترتیبی به صورت خودکار استفاده "
+#~ "خواهد شد.\n"
+#~ "\n"
+#~ "\t\tاین گزینه معمولا در مورد کاراکترهای غیر اسکی ASCII مانند کاراکترهای "
+#~ "یونیکد UT8 کاربرد دارد."
+
+#~ msgid "Top of the content"
+#~ msgstr "در ابتدای محتوای اصلی"
+
+#~ msgid "Before first heading"
+#~ msgstr "پیش از اولین تیتر داخل متن"
+
+#~ msgid "Bottom of the content"
+#~ msgstr "در انتهای متن اصلی"
+
+#~ msgid "Display the table of contents in the sidebar with this widget"
+#~ msgstr "نمایش فهرست مطالب در سایدبار با استفاده از این ابزارک"
+
+#~ msgid "Show the table of contents only in the sidebar"
+#~ msgstr "فهرست مطالب را تنها در سایدبار نمایش بده"
+
+#, fuzzy
+#~| msgid "Header Font"
+#~ msgid "Header"
+#~ msgstr "فونت تیترها"
+
+#~ msgid "%s taxonomy"
+#~ msgstr "تکسونومی   %s"
+
+#~ msgid "Check this item to enable this taxonomy."
+#~ msgstr "با علامت زدن این گزینه، تکسونومی مورد نظر فعال می‌‌شود."
+
+#~ msgid "Check this item as single value."
+#~ msgstr "با علامت زدن این گزینه، تکسونومی مورد نظر تک مقداری خواهد شد."
+
+#~ msgid "Name of taxonomy"
+#~ msgstr "نام تکسونومی"
+
+#~ msgid "Plural name of taxonomy"
+#~ msgstr "نام جمع برای تکسونومی"
+
+#~ msgid "Slug of taxonomy"
+#~ msgstr "نامک تکسونومی"
+
+#~ msgid "Compressor Setting"
+#~ msgstr "تنظیمات فشرده سازی"
+
+#, fuzzy
+#~| msgid "Choice post types you want enable virastar for theme."
+#~ msgid "Select taxonomies you want to create data for theme."
+#~ msgstr ""
+#~ "نوع نوشته‌هایی را که می‌خواهید ویراستار در آن‌ها فعال باشد را انتخاب کنید."
+
+#, fuzzy
+#~| msgid "Choice post types you want enable virastar for theme."
+#~ msgid "Select post types you want to create data for theme."
+#~ msgstr ""
+#~ "نوع نوشته‌هایی را که می‌خواهید ویراستار در آن‌ها فعال باشد را انتخاب کنید."
+
+#, fuzzy
+#~| msgid "Post Title Numbers"
+#~ msgid "Post Title Word Count"
+#~ msgstr "اعداد عنوان نوشته"
+
+#, fuzzy
+#~| msgid "Post Content Numbers"
+#~ msgid "Post Content Word Count"
+#~ msgstr "اعداد متن نوشته"
+
+#, fuzzy
+#~| msgid "Remove Entry"
+#~ msgid "Remove"
+#~ msgstr "حذف"
+
+#, fuzzy
+#~| msgid "Heading text"
+#~ msgid "Rating type"
+#~ msgstr "متن تیتر"
+
+#~ msgid "Relation Setting"
+#~ msgstr "تنظیمات روابط"
+
+#~ msgid "Title of relation"
+#~ msgstr "عنوان رابطه"
+
+#~ msgid "No products were found matching your selection."
+#~ msgstr "هیچ محصولی مطابق با انتخاب شما یافت نشد."
+
+#~ msgid "Product Category"
+#~ msgstr "دسته محصول"
+
+#~ msgid "Your comment"
+#~ msgstr "دیدگاه شما"
+
+#~ msgid "Lave a comment"
+#~ msgstr "ارسال دیدگاه"
+
+#~ msgid "Awaiting product image"
+#~ msgstr "در تصویر محصول"
+
+#~ msgid "Experience in develop and design web and seo"
+#~ msgstr "تجربه در توسعه و طراحی وب سایت و سئو"
+
+#~ msgid "Color"
+#~ msgstr "رنگ"
+
+#~ msgid "Color of number"
+#~ msgstr "رنگ عدد مورد نظر"
+
+#~ msgid "from %s"
+#~ msgstr "از %s"
+
+#~ msgid "Level of article"
+#~ msgstr "سطح"
+
+#~ msgid "Combine Head CSS"
+#~ msgstr "فشرده سازی CSS موجود در Head"
+
+#, fuzzy
+#~| msgid "Enable Mailer"
+#~ msgid "Enable Benchmark"
+#~ msgstr "فعال سازی ارسال ایمیل"
+
+#~ msgid "As main font"
+#~ msgstr "به عنوان فونت اصلی"
+
+#~ msgid "As navigation font"
+#~ msgstr "استفاده به عنوان فونت منو"
+
+#~ msgid "Persian"
+#~ msgstr "فارسی"
+
+#~ msgid "Jalali Archive"
+#~ msgstr "بایگانی شمسی"
+
+#~ msgid "A jalali monthly archive of your site’s posts"
+#~ msgstr "بایگانی ماهانه از نوشته‌های سایت شما"
+
+#~ msgid "Title:"
+#~ msgstr "عنوان:"
+
+#~ msgid "Show post counts"
+#~ msgstr "انتخاب تعداد نوشته"
+
+#~ msgid "Jalali Calendar"
+#~ msgstr "تقویم شمسی"
+
+#~ msgid "A jalali calendar of your site’s posts"
+#~ msgstr "تقویمی از نوشته‌های سایت شما"
+
+#, fuzzy
+#~| msgid "IP: %s"
+#~ msgid " %s"
+#~ msgstr "آی پی:‌ %s"
+
+#~ msgid "Center"
+#~ msgstr "وسط"
+
+#~ msgid "Left"
+#~ msgstr "چپ"
+
+#~ msgid "Newer Comments &rarr;"
+#~ msgstr "دید‌گاه‌های تازه‌تر &rarr;"
+
+#, fuzzy
+#~| msgid "Jalali Archive"
+#~ msgid "Daily Archives: %s"
+#~ msgstr "بایگانی شمسی"
+
+#, fuzzy
+#~| msgid "Jalali Archive"
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "بایگانی شمسی"
+
+#, fuzzy
+#~| msgid "Categories Numbers"
+#~ msgid "Category Archives: %s"
+#~ msgstr "اعداد دسته‌بندی‌"
+
+#~ msgid "Follow us in social media"
+#~ msgstr "ما را در شبکه های اجتماعی دنبال کنید"
+
+#~ msgid "By"
+#~ msgstr "به وسیله"
+
+#~ msgid "Enabled"
+#~ msgstr "فعال"
+
+#~ msgid "Disabled"
+#~ msgstr "غیرفعال"
+
+#~ msgid "enabled"
+#~ msgstr "فعال"
+
+#~ msgid "Bad Behavior"
+#~ msgstr "رفتار ناپسند"
+
+#~ msgid ""
+#~ "Use aspect ratio based image URLs like http://example.com/upload/1x1/image."
+#~ "jpg"
+#~ msgstr ""
+#~ "از نسبت‌های طول به عرض رایج تصویر در آدرس دهی تصاویر استفاده کن مانند "
+#~ "http://example.com/upload/1x1/image.jpg"
+
+#, fuzzy
+#~| msgid "Archives"
+#~ msgid "Archive for"
+#~ msgstr "بایگانی‌ها"
+
+#~ msgid "on"
+#~ msgstr "فعال"
+
+#~ msgid "Change language and calendar in administrator panel."
+#~ msgstr "تغییر زبان و تاریخ در بخش مدیریت سایت."
+
+#~ msgid "Change language , calendar and numbers in frontpage."
+#~ msgstr "تغییر زبان، تاریخ و اعداد در نمای کاربری سایت."
+
+#~ msgid "Active Plugins"
+#~ msgstr "افزونه‌های فعال"
+
+#~ msgid "Enable Woocommerce Jalali Date Converter"
+#~ msgstr "مبدل تقویم شمسی ووکامرس فعال باشد"
+
+#~ msgid ""
+#~ "Use Context Feature in administrator panel to use RTL direction in LTR "
+#~ "Languages"
+#~ msgstr "تشخیص خودکار جهت نوشتار، براساس متن ورودی"
+
+#~ msgid "Convert dates in wordpress administrator panel"
+#~ msgstr "تبدیل تاریخ در بخش مدیریت سایت"
+
+#~ msgid "Convert dates in wordpress frontpage"
+#~ msgstr "تبدیل تاریخ در بخش نمایشی وردپرس"
+
+#~ msgid "Change &amp; Save numbers to Farsi in Post Title"
+#~ msgstr "تغییر و ذخیره عددها به فارسی در عنوان نوشته‌ها"
+
+#~ msgid "Change &amp; Save numbers to Farsi in Post excerpt"
+#~ msgstr "تغییر و ذخیره عددها به فارسی در خلاصه نوشته‌ها"
+
+#~ msgid "Change &amp; Save numbers to Farsi in Post Content"
+#~ msgstr "تغییر و ذخیره عددها به فارسی در متن نوشته‌ها"
+
+#~ msgid "Change &amp; Save numbers to Farsi in Categories"
+#~ msgstr "تغییر و ذخیره عددها به فارسی در دسته‌ها"
+
+#~ msgid "Change &amp; Save numbers to Farsi in Comments"
+#~ msgstr "تغییر و ذخیره عددها به فارسی در دیدگاه‌ها"

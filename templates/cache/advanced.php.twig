@@ -1,0 +1,61 @@
+<?php
+
+if (!defined('ABSPATH')) exit;
+
+{% for use in uses %}
+use {{ use|raw }};
+{% endfor %}
+
+define('CACHE_ADVANCED_CACHE', true);
+
+$cachePath  = '{{ cache_path|raw }}';
+$vendorPath = '{{ vendor_path|raw }}';
+$configPath = '{{ config_path|raw }}';
+$classes = [
+{%- for key, class in classes %}
+    "{{ key|namespace }}" => "{{ class }}",
+{% endfor -%}
+];
+
+if (file_exists($cachePath)
+    && file_exists($configPath)) {
+
+    $isDebug = defined('WP_DEBUG') && WP_DEBUG;
+    spl_autoload_register(
+        function ($class) use ($classes, $vendorPath, $isDebug) {
+
+            if (isset($classes[$class])) {
+
+                $file = $classes[$class];
+            } elseif (strpos($class, 'Monolog\\') === 0 && $isDebug) {
+
+                $file = "{$vendorPath}/monolog/monolog/src/" . str_replace('\\', '/', $class) . '.php';
+            } elseif (strpos($class, 'Symfony\\') === 0) {
+
+                $file = "{$vendorPath}/symfony/filesystem/Filesystem.php";
+            } elseif (strpos($class, 'Psr\\Log\\') === 0) {
+
+                $file = "{$vendorPath}/psr/log/" . str_replace('\\', '/', $class) . '.php';
+            } else {
+                return;
+            }
+            if (file_exists($file)) {
+                require_once $file;
+            }
+        }
+    );
+
+    if (class_exists('\{{ namespace|raw }}\Buffer')) {
+
+        $config = new Config(['path' => $configPath]);
+        (new Buffer(new Test($config), $config, ['path' => $cachePath]))->maybeInitProcess();
+    } elseif (!defined('DONT_PERFORMANCE_OPTIMIZE')) {
+
+        define('DONT_PERFORMANCE_OPTIMIZE', true);
+    }
+} else {
+    if (!defined('CACHE_ADVANCED_CACHE_PROBLEM')) {
+
+	    define('CACHE_ADVANCED_CACHE_PROBLEM', true);
+	}
+}

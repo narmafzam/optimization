@@ -1,0 +1,31 @@
+.placeholder-container {
+    position: relative;
+}
+
+.img-blur {
+    top: 0;
+    right: 0;
+    position: absolute;
+    opacity: 1;
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+}
+
+.opacity-transition {
+    -webkit-transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.lazyload:not([src]) {
+    opacity: 0;
+}
+
+.img-blur.loaded {
+    opacity: 0 !important;
+}
+
+.lazyload.lazyloaded {
+    opacity: 1 !important;
+}
+

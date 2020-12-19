@@ -1,0 +1,24 @@
+registerListener('load', () => setTimeout(() => {
+    loadAssetResource('script[data-src]:not([src])')
+    setTimeout(() => window.dispatchEvent(new Event('resize')), 100);
+}, 2000));
+
+function loadAssetResource($selector) {
+
+    let $assets = document.querySelectorAll($selector);
+    if (!isEmpty($assets)) {
+        for (let i = 0; i < $assets.length; i++) {
+            let $element = $assets[i];
+
+            switch ($element.nodeName.toLowerCase()) {
+                case 'script':
+                    $element.src = $element.getAttribute('data-src');
+                    break;
+                case 'link':
+                    $element.href = $element.getAttribute('data-href');
+                    break;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+registerListener('load', () => setTimeout(removePreload, 1000));
+
+function removePreload() {
+    let cover = document.querySelector('.page-preloader-cover');
+    if (!isEmpty(cover)) {
+        cover.outerHTML = '';
+    }
+}

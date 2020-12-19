@@ -1,0 +1,2 @@
+<?php
+ namespace Optimization\Media; use Boilerplate\Util\AjaxUtil; class Media extends Common { public function __construct() { $this->loadRequirement(); parent::__construct(); } public function loadRequirement() { goto eZnNb; cGFr3: LazyLoad::getInstance(); goto O4xaz; O4xaz: Dominator::getInstance(); goto k9sUV; k9sUV: wJl7I: goto eVl7f; eZnNb: if (AjaxUtil::isAjax()) { goto wJl7I; } goto cGFr3; eVl7f: } }
