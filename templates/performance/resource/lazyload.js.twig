@@ -1,6 +1,6 @@
 registerListener('load', () => setTimeout(() => {
+    loadAssetResource('link[data-href]:not([href])')
     loadAssetResource('script[data-src]:not([src])')
-    setTimeout(() => window.dispatchEvent(new Event('resize')), 100);
 }, 2000));
 
 function loadAssetResource($selector) {
@@ -20,5 +20,7 @@ function loadAssetResource($selector) {
 
             }
         }
+
+        setTimeout(() => window.dispatchEvent(new Event('resize')), 100);
     }
 }
