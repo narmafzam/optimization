@@ -1,7 +1,7 @@
 let lazy = [];
 
 registerListener('DOMContentLoaded', () => {
-    setLazy()
+    setLazy();
 });
 
 registerListener('DOMContentLoaded', () => {
@@ -15,6 +15,7 @@ function setLazy() {
     if (isEmpty(lazy)) {
 
         lazy = document.getElementsByClassName('lazyload');
+        cleanLazy();
     }
 }
 

@@ -1,6 +1,16 @@
-registerListener('load', () => setTimeout(removePreload, 2500));
+{% if is_admin %}
+    registerListener('load', removePreload);
+{% else %}
+    addAction('boilerplate_asset_loaded', () => {
+        removePreload()
+    });
+{% endif %}
 
 function removePreload() {
+
+    window.scrollTo(0, 0);
+    window.dispatchEvent(new Event('resize'));
+    removeClass(document.body, 'overflow-hidden');
     let cover = document.querySelector('.page-preloader-cover');
     if (!isEmpty(cover)) {
         cover.outerHTML = '';

@@ -1,0 +1,218 @@
+window.isEmpty = function ($value) {
+    return typeof $value === "undefined"
+        || $value === null
+        || $value === 0
+        || $value.length === 0;
+}
+
+window.addClass = function ($element, $class) {
+    if (!isEmpty($element)) {
+        return $element.classList.add($class);
+    }
+}
+
+window.hasClass = function ($element, $name) {
+    let $has = false;
+    if (!isEmpty($element)
+        && $element.className) {
+
+        $has = new RegExp("(^|\\s+)" + $name + "(\\s+|$)")
+            .test($element.className);
+    }
+    return $has;
+};
+
+window.findElement = function ($element, $selector) {
+    if (!isEmpty($element)) {
+
+        return $element.querySelector($selector);
+    }
+}
+
+window.ajaxRequest = function ($data, $callback, $method = 'POST') {
+    if (typeof $callback === "function") {
+
+        let xhr = new XMLHttpRequest();
+        xhr.open($method, '{{ ajax_url|raw }}');
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        xhr.onreadystatechange = function () {
+
+            if (this.readyState === XMLHttpRequest.DONE) {
+
+                let response = this.responseText;
+                try {
+
+                    response = JSON.parse(this.responseText);
+                } catch (e) {
+
+                }
+                $callback(response);
+            }
+        };
+
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send((new URLSearchParams(Object.entries($data))).toString());
+    }
+}
+
+window.findElements = function ($element, $selector) {
+    if (!isEmpty($element)) {
+
+        return $element.querySelectorAll($selector);
+    }
+}
+
+window.isInViewport = function (element, extra = 0) {
+    let rect = element.getBoundingClientRect();
+
+    return (
+        rect.bottom > 0 &&
+        rect.right > 0 &&
+        rect.top <= (window.innerHeight || document.documentElement.clientHeight) + extra &&
+        rect.left <= (window.innerWidth || document.documentElement.clientWidth) + extra
+    );
+}
+
+window.removeClass = function ($element, $class) {
+    if (!isEmpty($element)) {
+        return $element.classList.remove($class);
+    }
+}
+
+window.animateAppend = function ($container, $child, $transition = 'fast') {
+    if (typeof $child === 'string') {
+        $child = createElement($child);
+    }
+    addClass($child, 'fade');
+    $container.appendChild($child);
+    setTimeout(() => addClass($child, 'show'), $transition === 'fast' ? 200 : 500);
+}
+
+window.createElement = function (e = '', c, t = document.createElement('template'), l = 'length') {
+    t.innerHTML = e.trim();
+    c = [...t.content.childNodes];
+    return c[l] > 1 ? c : c[0] || '';
+}
+
+window.registerListener = function ($events, $callback, $element = null) {
+
+    $events = $events.split(/\s+/);
+    $events.forEach(function (event) {
+        event = event.trim();
+        if (event !== 'DOMContentLoaded'
+            || document.readyState === 'loading') {
+            if (isEmpty($element)) {
+
+                $element = document;
+                if (event !== 'DOMContentLoaded') {
+                    $element = window;
+                }
+            }
+            if ($element.addEventListener) {
+
+                $element.addEventListener(event, $callback)
+            } else {
+                $element.attachEvent('on' + event, $callback)
+            }
+        } else {
+
+            $callback(event);
+        }
+    });
+}
+
+window.registerMutation = function ($element, $callback, $config = {attributes: true, childList: true, subtree: true}) {
+    if (isEmpty($callback)) {
+
+        let observer = new MutationObserver($callback);
+        if (typeof $element == "string") {
+
+            $element = document.querySelector($element);
+        }
+        observer.observe($element, $config);
+    }
+}
+
+window.multipleReplace = function ($string, $find, $replace) {
+    for (let $i = 0; $i < $find.length; $i++) {
+
+        $string = $string.replace(new RegExp($find[$i], 'gi'), $replace[$i]);
+    }
+    return $string;
+}
+
+// Triggers and hooks
+
+window.BOILERPLATE_WP_HOOKS = window.BOILERPLATE_WP_HOOKS ?? {
+    action: {},
+    filter: {}
+};
+
+function doHook($type, $args) {
+    let $hook, $tag = $args[0];
+    if (!($tag in BOILERPLATE_WP_HOOKS[$type])) {
+
+        return $args[1];
+    }
+
+    [].shift.apply($args);
+
+    for (let $priority in BOILERPLATE_WP_HOOKS[$type][$tag]) {
+
+        $hook = BOILERPLATE_WP_HOOKS[$type][$tag][$priority];
+        if (!isEmpty($hook)) {
+
+            for (let $cb in $hook) {
+
+                let $callback = $hook[$cb].callback;
+                if (typeof $callback === "function") {
+                    if ('filter' === $type) {
+
+                        $args[0] = $callback.apply(null, $args);
+                    } else {
+
+                        $callback.apply(null, $args);
+                    }
+                }
+            }
+        }
+    }
+    if ('filter' === $type) {
+        return $args[0];
+    }
+}
+
+function addHook($type, $tag, $callback, $priority = 10) {
+    $priority = ($priority || 10);
+    if (!($tag in BOILERPLATE_WP_HOOKS[$type])) {
+
+        BOILERPLATE_WP_HOOKS[$type][$tag] = [];
+    }
+
+    if (!($priority in BOILERPLATE_WP_HOOKS[$type][$tag])) {
+
+        BOILERPLATE_WP_HOOKS[$type][$tag][$priority] = [];
+    }
+    BOILERPLATE_WP_HOOKS[$type][$tag][$priority].push({
+        callback: $callback,
+        priority: $priority
+    });
+}
+
+window.applyFilters = function ($tag, $value, $varargs) {
+    return doHook('filter', arguments);
+};
+
+window.addFilter = function ($tag, $callback, $priority) {
+
+    addHook('filter', $tag, $callback, $priority);
+};
+
+window.doAction = function ($tag, $args) {
+    return doHook('action', arguments);
+};
+
+window.addAction = function ($tag, $callback, $priority) {
+
+    addHook('action', $tag, $callback, $priority);
+};

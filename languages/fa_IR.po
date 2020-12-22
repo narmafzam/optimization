@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2020-12-19 14:32+0330\n"
-"PO-Revision-Date: 2020-12-19 14:37+0330\n"
+"POT-Creation-Date: 2020-12-22 05:50+0330\n"
+"PO-Revision-Date: 2020-12-22 05:52+0330\n"
 "Last-Translator: Farshadi <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -34,6 +34,12 @@ msgstr ""
 msgid "Cache files successfully removed"
 msgstr "فایل‌های کش با موفقیت حذف شد"
 
+#: src/Optimization/CDN/JsDeliver.php:387
+#, fuzzy
+#| msgid "Every %d Minutes"
+msgid "Every Fifteen Minutes"
+msgstr "هر %d دقیقه"
+
 #: src/Optimization/Cache/Advanced.php:88
 #, php-format
 msgid "Optimization Advanced Cache file generated successfully in %s."
@@ -44,13 +50,14 @@ msgstr "فایل Advance-cache در %s با موفقیت ایجاد شد."
 msgid "Cache"
 msgstr "کش"
 
-#: src/Optimization/Cache/Cache.php:64 src/Optimization/Critical/Critical.php:40
-#: src/Optimization/Optimization.php:71
+#: src/Optimization/Cache/Cache.php:61 src/Optimization/Combine/Combine.php:55
+#: src/Optimization/Critical/Critical.php:40
+#: src/Optimization/Optimization.php:75
 #, php-format
 msgid "%s constant not defined, please define that in wp-config.php."
 msgstr ""
 
-#: src/Optimization/Cache/Cache.php:90
+#: src/Optimization/Cache/Cache.php:87
 msgid "Scheduled Cache Purge"
 msgstr "زمان‌بندی پاکسازی کش"
 
@@ -108,7 +115,7 @@ msgstr ""
 msgid "Affected file/directory: %s"
 msgstr "فایل/ پوشه تحت تاثیر: %s"
 
-#: src/Optimization/Optimization.php:162
+#: src/Optimization/Optimization.php:167
 #, php-format
 msgid "Optimization config file %s generated in %s"
 msgstr "فایل پیکربندی %s در %s ایجاد شد"
@@ -124,14 +131,16 @@ msgid_plural ""
 "Failed to detect the following requirements in your theme: closing %1$s."
 msgstr[0] ""
 
-#: src/Optimization/Process/Batch.php:151
+#: src/Optimization/Process/Batch.php:148
 #, php-format
 msgid ""
 "Optimization process is currently running: %s success and %s failed of %s "
 "page types completed. (Refresh this page to view progress)"
 msgstr ""
+"بهینه سازی در حال اجراست: %s پردازش موفق و %s پردازش نا موفق از %s صفحه. "
+"(برای دیدن پیشرفت صفحه را رفرش کنید)"
 
-#: src/Optimization/Process/Batch.php:191
+#: src/Optimization/Process/Batch.php:188
 msgid "Optimization process is currently running."
 msgstr "پردازش بهینه‌سازی در حال اجرا است."
 
@@ -140,7 +149,7 @@ msgstr "پردازش بهینه‌سازی در حال اجرا است."
 msgid "Clear this %s"
 msgstr "حذف این %s"
 
-#: src/Optimization/Theme.php:72
+#: src/Optimization/Theme.php:90
 msgid "Loading..."
 msgstr "در حال بارگذاری"
 
@@ -224,9 +233,6 @@ msgstr "در حال بارگذاری"
 
 #~ msgid "Something is wrong in addChannel on logger."
 #~ msgstr "اشکالی در فرایند افزودن کانال به لاگر به وجود آمده است."
-
-#~ msgid "Every %d Minutes"
-#~ msgstr "هر %d دقیقه"
 
 #~ msgid "%s ago"
 #~ msgstr "‏%s پیش"

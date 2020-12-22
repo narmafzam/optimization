@@ -1,26 +1,72 @@
+let loadingResources = false, loadingResourcesDone = false;
+
 registerListener('load', () => setTimeout(() => {
-    loadAssetResource('link[data-href]:not([href])')
-    loadAssetResource('script[data-src]:not([src])')
-}, 2000));
+    loadAssetResource('link[data-href][rel=stylesheet]:not([href])');
+    setTimeout(() => doAction('boilerplate_asset_loaded'), 1000);
+}, 3000));
 
-function loadAssetResource($selector) {
+registerListener('load', () => setTimeout(() => {
+    registerListener('click scroll', () => {
+        loadAssetResource('script[data-src]:not([src])', true);
+        loadingResourcesDone = true;
+    })
+}, 5000));
 
-    let $assets = document.querySelectorAll($selector);
-    if (!isEmpty($assets)) {
-        for (let i = 0; i < $assets.length; i++) {
-            let $element = $assets[i];
+function loadAssetResource($selector, $trigger = false) {
 
-            switch ($element.nodeName.toLowerCase()) {
-                case 'script':
-                    $element.src = $element.getAttribute('data-src');
-                    break;
-                case 'link':
-                    $element.href = $element.getAttribute('data-href');
-                    break;
+    if (!loadingResourcesDone) {
 
+        let $elements = document.querySelectorAll($selector),
+            $assetResources = [];
+        if ($elements.length) {
+
+            for (let j = 0; j < $elements.length; j++) {
+
+                $assetResources.push($elements[j]);
             }
-        }
 
-        setTimeout(() => window.dispatchEvent(new Event('resize')), 100);
+            $assetResources.sort(function (a, b) {
+
+                let $pa = a.getAttribute('data-priority'),
+                    $pb = b.getAttribute('data-priority');
+
+                return $pa - $pb;
+            });
+
+            if (!loadingResources) {
+
+                loadingResources = true;
+                for (let i = 0; i < $assetResources.length; i++) {
+                    setTimeout(() => {
+                        let $element = $assetResources[i], $target;
+                        switch ($element.nodeName.toLowerCase()) {
+                            case 'script':
+                                $target = 'data-src';
+                                $element.src = $element.getAttribute($target);
+                                break;
+                            case 'link':
+                                $target = 'data-href';
+                                $element.href = $element.getAttribute($target);
+                                break;
+                        }
+
+                        if ($target) {
+
+                            $element.removeAttribute($target);
+                            addClass($element, 'asset-loaded');
+                        }
+                        {#if ($trigger#}
+                        {#    && $assetResources.length - 1 === i) {#}
+
+                        {#    let DOMContentLoaded_event = document.createEvent("Event");#}
+                        {#    DOMContentLoaded_event.initEvent("DOMContentLoaded", true, true);#}
+                        {#    window.document.dispatchEvent(DOMContentLoaded_event);#}
+                        {#    window.document.dispatchEvent(new Event('load'));#}
+                        {#}#}
+                    }, i * 150)
+                }
+            }
+            loadingResources = false;
+        }
     }
 }

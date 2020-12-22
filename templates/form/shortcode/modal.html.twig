@@ -1,0 +1,89 @@
+{% if shortcodes is defined and shortcodes is not empty %}
+    {% set shortcode_title = '' %}
+    <div class="shortcode-modal-container" id="modal-{{ name|esc_attr }}-shortcode">
+        <div tabindex="0" class="shortcode-modal wp-core-ui">
+            <button type="button" class="shortcode-modal-close">
+                <span class="shortcode-modal-icon">
+                    <span class="screen-reader-text">{{ close_message|raw }}</span>
+                </span>
+            </button>
+            <div class="shortcode-modal-content">
+                <div class="shortcode-frame mode-select wp-core-ui">
+                    <div class="shortcode-frame-menu">
+                        <div class="shortcode-menu">
+                            {% set is_first = 1 %}
+                            {% for key, shortcode in shortcodes %}
+                                {% if shortcode.hasChildren() %}
+                                    {% include get_template('menu_item', _self) with {
+                                        slug: shortcode.getKey(),
+                                        title: shortcode.getTitle(),
+                                        active: is_first,
+                                        is_category: 1
+                                    } %}
+                                    <div class="shortcode-submenu{% if is_first %} active{% endif %}" id="shortcode-{{ shortcode.getKey()|esc_attr }}-child">
+                                        {% for child in shortcode.getChildren() %}
+                                            {% if is_first %}
+                                                {% set shortcode_title = child.getTitle() %}
+                                            {% endif %}
+                                            {% include get_template('menu_item', _self) with {
+                                                slug: child.getKey(),
+                                                title: child.getTitle(),
+                                                active: is_first,
+                                                is_category: 0
+                                            } %}
+                                            {% set is_first = 0 %}
+                                        {% endfor %}
+                                    </div>
+                                {% else %}
+                                    {% if is_first %}
+                                        {% set shortcode_title = shortcode.getTitle %}
+                                    {% endif %}
+                                    {% include get_template('menu_item', _self) with {
+                                        slug: shortcode.getKey(),
+                                        title: shortcode.getTitle(),
+                                        active: is_first,
+                                        is_category: 0
+                                    } %}
+                                    {% set is_first = 0 %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="shortcode-frame-title">
+                        <h1>{{ title|raw }} (<span class="shortcode-title">{{ shortcode_title|raw }}</span>)
+                            <span class="shortcode-close dashicons dashicons-arrow-down"></span></h1>
+                    </div>
+                    <div class="shortcode-frame-content">
+                        {% set is_first = 1 %}
+                        {% for shortcode in shortcodes %}
+                            {% if shortcode.hasChildren() %}
+                                {% for child in shortcode.getChildren() %}
+                                    {% include get_template('content_item', _self) with {
+                                        item: child,
+                                        active: is_first,
+                                    } %}
+                                    {% set is_first = 0 %}
+                                {% endfor %}
+                            {% else %}
+                                {% include get_template('content_item', _self) with {
+                                    item: shortcode,
+                                    active: is_first,
+                                } %}
+                                {% set is_first = 0 %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    <div class="shortcode-frame-toolbar">
+                        <div class="shortcode-toolbar">
+                            <div class="shortcode-toolbar-primary search-form">
+                                <button type="button"
+                                        class="button shortcode-button button-primary button-large shortcode-button-insert">{{ button|raw }}</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shortcode-modal-backdrop"></div>
+    </div>
+{% endif %}

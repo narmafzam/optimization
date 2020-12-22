@@ -1,0 +1,2 @@
+<a href="#" class="shortcode-menu-item{% if active  %} active{% endif %}{% if is_category %} menu-acordeon{% endif %}"
+   data-target="#shortcode-{{ slug|esc_attr }}-{% if is_category %}child{% else %}content{% endif %}" data-slug="{{ slug|esc_attr }}">{{ title|raw }}</a>
